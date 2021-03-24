@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1616560359579,
+  "lastUpdate": 1616615927760,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -143,6 +143,42 @@ window.BENCHMARK_DATA = {
             "name": "reactivity_effects",
             "value": 378377,
             "range": "± 11683",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3314992d74d923ff7557608837cc4919a6d03273",
+          "message": "Fix reactive bindings inside Indexed and Keyed children (#54)\n\n* Fix clippy\r\n\r\n* Remove Option<TemplateResult> in Indexed and Keyed\r\n\r\n* create_effect_initial call initial() in create_root\r\n\r\n* Call template function inside reactive root\r\n\r\n* Add docs for Keyed and Indexed\r\n\r\n* Add some more docs and doctests",
+          "timestamp": "2021-03-24T12:55:33-07:00",
+          "tree_id": "340227bbda14f65e7a25cc97ef51fd8a773f2d1b",
+          "url": "https://github.com/lukechu10/maple/commit/3314992d74d923ff7557608837cc4919a6d03273"
+        },
+        "date": 1616615927340,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 58505,
+            "range": "± 558",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 374764,
+            "range": "± 3930",
             "unit": "ns/iter"
           }
         ]
