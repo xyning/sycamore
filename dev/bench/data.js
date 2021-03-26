@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1616791315022,
+  "lastUpdate": 1616791968224,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -359,6 +359,42 @@ window.BENCHMARK_DATA = {
             "name": "reactivity_effects",
             "value": 581365,
             "range": "± 6168",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e5ef27b0dcdba315c5e4a9cea27b99b30530ceb3",
+          "message": "fix todomvc links (#65)",
+          "timestamp": "2021-03-26T13:49:33-07:00",
+          "tree_id": "24fdda96868cab414f685c99f57f31329b1b4ee6",
+          "url": "https://github.com/lukechu10/maple/commit/e5ef27b0dcdba315c5e4a9cea27b99b30530ceb3"
+        },
+        "date": 1616791967728,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 59126,
+            "range": "± 329",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 586231,
+            "range": "± 2504",
             "unit": "ns/iter"
           }
         ]
