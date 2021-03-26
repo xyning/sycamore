@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1616782131206,
+  "lastUpdate": 1616791315022,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -323,6 +323,42 @@ window.BENCHMARK_DATA = {
             "name": "reactivity_effects",
             "value": 534864,
             "range": "± 29791",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwburns8@gmail.com",
+            "name": "Ian Burns",
+            "username": "iwburns"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "25b9aa0938bcf152cf640bd7c880e15de1476113",
+          "message": "fix typo in README.md (#64)",
+          "timestamp": "2021-03-26T13:38:58-07:00",
+          "tree_id": "d15a9e6e6ee111e20929439b84e844a2fc4072e3",
+          "url": "https://github.com/lukechu10/maple/commit/25b9aa0938bcf152cf640bd7c880e15de1476113"
+        },
+        "date": 1616791314547,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 58031,
+            "range": "± 1102",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 581365,
+            "range": "± 6168",
             "unit": "ns/iter"
           }
         ]
