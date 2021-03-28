@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1616791968224,
+  "lastUpdate": 1616909117591,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -395,6 +395,42 @@ window.BENCHMARK_DATA = {
             "name": "reactivity_effects",
             "value": 586231,
             "range": "± 2504",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "90e6d46679a62d715f3502f3f64811482c94f02a",
+          "message": "Add discord server link to issue template config (#68)",
+          "timestamp": "2021-03-27T22:22:20-07:00",
+          "tree_id": "676036cde031e6e6a8c799be4978273f7117335f",
+          "url": "https://github.com/lukechu10/maple/commit/90e6d46679a62d715f3502f3f64811482c94f02a"
+        },
+        "date": 1616909116804,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 52120,
+            "range": "± 2415",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 539677,
+            "range": "± 24640",
             "unit": "ns/iter"
           }
         ]
