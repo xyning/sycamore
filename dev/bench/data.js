@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617230746081,
+  "lastUpdate": 1617231126766,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -467,6 +467,42 @@ window.BENCHMARK_DATA = {
             "name": "reactivity_effects",
             "value": 508610,
             "range": "± 42425",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ffab9c38f9f1f34abfb0d7754534db26e4dd534e",
+          "message": "Release 0.4.1 (#74)",
+          "timestamp": "2021-03-31T15:49:00-07:00",
+          "tree_id": "96a15b04c09ea754ae953fefcac30d1e0c633a26",
+          "url": "https://github.com/lukechu10/maple/commit/ffab9c38f9f1f34abfb0d7754534db26e4dd534e"
+        },
+        "date": 1617231124914,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 58200,
+            "range": "± 710",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 579314,
+            "range": "± 9976",
             "unit": "ns/iter"
           }
         ]
