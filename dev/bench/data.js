@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617257488919,
+  "lastUpdate": 1617296081676,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -611,6 +611,42 @@ window.BENCHMARK_DATA = {
             "name": "reactivity_effects",
             "value": 623041,
             "range": "± 20245",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0cbf7661263f2ce555df93db355a21186e0f4829",
+          "message": "Support attributes with '-' in name (#79)\n\n* Support attributes with '-' in name\r\n\r\n* Update README.md\r\n\r\n* Don't specify patch version in Cargo.toml",
+          "timestamp": "2021-04-01T09:51:18-07:00",
+          "tree_id": "e70e77f1da3e69c4503a9b54ab434ffe1bef144b",
+          "url": "https://github.com/lukechu10/maple/commit/0cbf7661263f2ce555df93db355a21186e0f4829"
+        },
+        "date": 1617296081230,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 55743,
+            "range": "± 1477",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 572311,
+            "range": "± 14196",
             "unit": "ns/iter"
           }
         ]
