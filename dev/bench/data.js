@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617309754245,
+  "lastUpdate": 1617565362439,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -719,6 +719,54 @@ window.BENCHMARK_DATA = {
             "name": "reactivity_effects",
             "value": 578868,
             "range": "± 3537",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "274e0aedf06c9818fc98b30569d39d3fab4fe1d1",
+          "message": "Implement missing operations on SsrNode (#82)\n\n* Add ssr benchmark\r\n\r\n* Update ssr_simple bench\r\n\r\n* Add wrapper around SsrNode\r\n\r\n* Implement insert_child_before\r\n\r\n* wip\r\n\r\n* Do not create nodes twice\r\n\r\n* SSR iteration\r\n\r\n* Add some integration tests for ssr\r\n\r\n* Add FIXME comment\r\n\r\n* Fix test features",
+          "timestamp": "2021-04-04T19:39:15Z",
+          "tree_id": "8f5035b25b2d797e73139509f06395c8e5254d47",
+          "url": "https://github.com/lukechu10/maple/commit/274e0aedf06c9818fc98b30569d39d3fab4fe1d1"
+        },
+        "date": 1617565361981,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 58116,
+            "range": "± 218",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 579154,
+            "range": "± 2493",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2308,
+            "range": "± 16",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 111242,
+            "range": "± 594",
             "unit": "ns/iter"
           }
         ]
