@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617577647356,
+  "lastUpdate": 1617578753060,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -815,6 +815,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 104058,
             "range": "± 3450",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "35810cece55a7ba254cde0480fe93f0bd3292bdb",
+          "message": "Squashed commit of the following:\n\ncommit c849ec697d72ae534b279e4bc097329c76761f04\nAuthor: Luke Chu <37006668+lukechu10@users.noreply.github.com>\nDate:   Sun Apr 4 16:21:29 2021 -0700\n\n    fix",
+          "timestamp": "2021-04-04T16:21:54-07:00",
+          "tree_id": "5c6bf95f920e667329227e289b646be7c0d51cf7",
+          "url": "https://github.com/lukechu10/maple/commit/35810cece55a7ba254cde0480fe93f0bd3292bdb"
+        },
+        "date": 1617578752290,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 57418,
+            "range": "± 2618",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 581685,
+            "range": "± 24749",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2598,
+            "range": "± 192",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 115014,
+            "range": "± 8122",
             "unit": "ns/iter"
           }
         ]
