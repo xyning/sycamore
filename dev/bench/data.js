@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617565362439,
+  "lastUpdate": 1617577647356,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -767,6 +767,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 111242,
             "range": "± 594",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a28ee7b14e3acc43b8b969e0b3e08d8c32d3fbb5",
+          "message": "Documentation website (#83)\n\n* Add getting started page\r\n\r\n* Add installation guide\r\n\r\n* Hello, World!\r\n\r\n* Force install wasm-bindgen-cli\r\n\r\n* Add template! and reactivity docs\r\n\r\n* Add Netlify.toml\r\n\r\n* Fix config file name\r\n\r\n* Use rewrite instead of redirect\r\n\r\n* Add highlight.js\r\n\r\n* Add some styling\r\n\r\n* Add more docs",
+          "timestamp": "2021-04-04T16:03:54-07:00",
+          "tree_id": "fb5399bdc0884ba2e42ff616b06d1cd7f9958532",
+          "url": "https://github.com/lukechu10/maple/commit/a28ee7b14e3acc43b8b969e0b3e08d8c32d3fbb5"
+        },
+        "date": 1617577646842,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 52107,
+            "range": "± 2220",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 525124,
+            "range": "± 21757",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2112,
+            "range": "± 104",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 104058,
+            "range": "± 3450",
             "unit": "ns/iter"
           }
         ]
