@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617578753060,
+  "lastUpdate": 1617597226432,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -863,6 +863,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 115014,
             "range": "± 8122",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe1d67fd4d99477dfc2a3e9fcbe80850a0215be1",
+          "message": "Build website in Github Actions (#84)\n\n* Add build website action\r\n\r\n* Fix workflow\r\n\r\n* Add index.html to ssr example\r\n\r\n* Fix workflow\r\n\r\n* Add prod website build\r\n\r\n* Fix public-url prefix\r\n\r\n* Add cache to GitHub Action\r\n\r\n* Fix cache hash path\r\n\r\n* Add some docs\r\n\r\n* Split test and clippy into 2 jobs",
+          "timestamp": "2021-04-05T04:30:38Z",
+          "tree_id": "e791f896e681f42e27aa8b80820d3a9108db81c7",
+          "url": "https://github.com/lukechu10/maple/commit/fe1d67fd4d99477dfc2a3e9fcbe80850a0215be1"
+        },
+        "date": 1617597225996,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 45820,
+            "range": "± 3204",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 453568,
+            "range": "± 30858",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1954,
+            "range": "± 178",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 88714,
+            "range": "± 7214",
             "unit": "ns/iter"
           }
         ]
