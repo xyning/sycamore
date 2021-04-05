@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617597938771,
+  "lastUpdate": 1617661090346,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -959,6 +959,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 99103,
             "range": "± 3555",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "76e68d7fb750d01555c85169531409feea9c3280",
+          "message": "Tweened Values (#86)\n\n* Add Tweened\r\n\r\n* Add some easing functions\r\n\r\n* Set final value to new_value to prevent rounding errors\r\n\r\n* Implement Lerp for more types\r\n\r\n* Add some more easing functions\r\n\r\n* Add missing button\r\n\r\n* Make run_tasks noop on non dom\r\n\r\n* Remove install wasm-pack for cargo clippy",
+          "timestamp": "2021-04-05T15:14:20-07:00",
+          "tree_id": "cab7c9c64344729fed51adaee3aa662ad6029095",
+          "url": "https://github.com/lukechu10/maple/commit/76e68d7fb750d01555c85169531409feea9c3280"
+        },
+        "date": 1617661089875,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 56133,
+            "range": "± 4317",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 583705,
+            "range": "± 31591",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2582,
+            "range": "± 107",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 110877,
+            "range": "± 8908",
             "unit": "ns/iter"
           }
         ]
