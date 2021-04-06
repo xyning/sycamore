@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617734626414,
+  "lastUpdate": 1617743007781,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1103,6 +1103,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 94189,
             "range": "± 5430",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e1f2709eee8b9f0ad39285bf3982c78f43f06e09",
+          "message": "Run unit tests in Miri (#91)\n\n* Run unit tests in Miri\r\n\r\n* Remove +nightly from cargo command\r\n\r\n* Update cargo cache name\r\n\r\n* Do not leak effects without an Owner\r\n\r\n* Untrack cleanup\r\n\r\n* Fix miri checks",
+          "timestamp": "2021-04-06T20:59:36Z",
+          "tree_id": "9c57e52d4c475b7a5ef2a6cec3d27f806aa82d44",
+          "url": "https://github.com/lukechu10/maple/commit/e1f2709eee8b9f0ad39285bf3982c78f43f06e09"
+        },
+        "date": 1617743007261,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 55620,
+            "range": "± 6161",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 541045,
+            "range": "± 25201",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2466,
+            "range": "± 182",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 108882,
+            "range": "± 5915",
             "unit": "ns/iter"
           }
         ]
