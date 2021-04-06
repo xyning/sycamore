@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617681267231,
+  "lastUpdate": 1617734626414,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1055,6 +1055,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 113244,
             "range": "± 7299",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "51313597+tmpr@users.noreply.github.com",
+            "name": "Alexander Temper",
+            "username": "tmpr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c7bf585cd739f8c4d2395439b4b4dfdfe7374628",
+          "message": "Add specified easing functions specified in (#88) (#90)\n\n* Add Circular Easing (#88)\r\n\r\n* Add Exponential Easing (#88)\r\n\r\n* Add Sine Easing (#88)\r\n\r\n* Add Bounce Ease (#88)\r\n\r\n* Format Code\r\n\r\n* Apply suggestions from code review\r\n\r\nCommit suggested changes\r\n\r\nCo-authored-by: Luke Chu <37006668+lukechu10@users.noreply.github.com>\r\n\r\n* Switch Float Format (e.g. 1. -> 1.0)\r\n\r\n* Use std. Epsilon\r\n\r\n* Switch to associated functions\r\n\r\nCo-authored-by: Luke Chu <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2021-04-06T11:40:30-07:00",
+          "tree_id": "5cc6e8f2fa4cafac9ad0569af43220fa46a1141a",
+          "url": "https://github.com/lukechu10/maple/commit/c7bf585cd739f8c4d2395439b4b4dfdfe7374628"
+        },
+        "date": 1617734625597,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 50037,
+            "range": "± 2404",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 495042,
+            "range": "± 24045",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1959,
+            "range": "± 117",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 94189,
+            "range": "± 5430",
             "unit": "ns/iter"
           }
         ]
