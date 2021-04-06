@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617743007781,
+  "lastUpdate": 1617751643211,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1151,6 +1151,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 108882,
             "range": "± 5915",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "564449454aa86cebeb9381c2ccccc06b3fb3c49b",
+          "message": "Document Fragments (#89)\n\n* Remove SignalVec\r\n\r\n* Move TemplateResult into sub-module\r\n\r\n* wrap comments at 100\r\n\r\n* Make TemplateResult able to hold a fragment\r\n\r\n* Iter and IntoIter for TemplateResult\r\n\r\n* Update flow.rs\r\n\r\n* Update render_* functions\r\n\r\n* Update Render trait\r\n\r\n* Make Render accept slice\r\n\r\n* Update template! macro\r\n\r\n* Fix template!\r\n\r\n* Allow multiple children at template! root\r\n\r\n* Add some integration tests\r\n\r\n* Add some more integration tests\r\n\r\n* Add more docs",
+          "timestamp": "2021-04-06T23:23:57Z",
+          "tree_id": "d4405eebf1a5a936e84b1dad7681b8fa71e89361",
+          "url": "https://github.com/lukechu10/maple/commit/564449454aa86cebeb9381c2ccccc06b3fb3c49b"
+        },
+        "date": 1617751642709,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 48582,
+            "range": "± 39",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 479484,
+            "range": "± 1837",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2389,
+            "range": "± 9",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 103382,
+            "range": "± 201",
             "unit": "ns/iter"
           }
         ]
