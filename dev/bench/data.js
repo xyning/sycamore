@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617661090346,
+  "lastUpdate": 1617681267231,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1007,6 +1007,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 110877,
             "range": "± 8908",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e5bfb75e80f43fe0279eac48a5a1b3b559a3a7c2",
+          "message": "More docs (#87)\n\n* Rename Concepts to Basics\r\n\r\n* Add more pages\r\n\r\n* Add more doc placeholder pages\r\n\r\n* Add some API docs for Tweened\r\n\r\n* Keep TweenedInner in a Rc\r\n\r\n* Add some API docs",
+          "timestamp": "2021-04-05T20:50:28-07:00",
+          "tree_id": "2db013cb8a0a00d4b10cc27f69045917d4adf5ca",
+          "url": "https://github.com/lukechu10/maple/commit/e5bfb75e80f43fe0279eac48a5a1b3b559a3a7c2"
+        },
+        "date": 1617681266705,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 55953,
+            "range": "± 3616",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 578213,
+            "range": "± 49893",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2755,
+            "range": "± 123",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 113244,
+            "range": "± 7299",
             "unit": "ns/iter"
           }
         ]
