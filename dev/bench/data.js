@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617751643211,
+  "lastUpdate": 1617833990868,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1199,6 +1199,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 103382,
             "range": "± 201",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2ef0a44ba8bf0e6f440dbd58bd8c306dd7e925bc",
+          "message": "`#[component]` macro (#92)\n\n* Move template! into sub-module\r\n\r\n* Move ui tests into template/ folder\r\n\r\n* Add component macro\r\n\r\n* Fix intra-doc links\r\n\r\n* Add component! to prelude\r\n\r\n* Implement component macro\r\n\r\n* Use #[component] attribute macro\r\n\r\n* Fix ssr benchmarks\r\n\r\n* Fix tests\r\n\r\n* Update documentation",
+          "timestamp": "2021-04-07T15:16:07-07:00",
+          "tree_id": "12ada2cd82afc1e106ad2cf1c5a739d26aaebe03",
+          "url": "https://github.com/lukechu10/maple/commit/2ef0a44ba8bf0e6f440dbd58bd8c306dd7e925bc"
+        },
+        "date": 1617833988992,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 58159,
+            "range": "± 73",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 574050,
+            "range": "± 2936",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2463,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 114072,
+            "range": "± 199",
             "unit": "ns/iter"
           }
         ]
