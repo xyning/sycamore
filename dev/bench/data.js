@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617833990868,
+  "lastUpdate": 1617897825722,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1247,6 +1247,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 114072,
             "range": "± 199",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d864c2de96d0d2ce7da77e9adba1db11a73b18b",
+          "message": "2-way data binding (#93)\n\n* Parse bind:prop in template!\r\n\r\n* bind:value on input element\r\n\r\n* Do not assume presence of web_sys or wasm_bindgen\r\n\r\n* Bind to boolean properties\r\n\r\n* Remove checkbox from hello world example\r\n\r\n* return compile_error! instead of panic\r\n\r\n* Add integration test\r\n\r\n* Add data binding docs\r\n\r\n* Remove reqwest from docs\r\n\r\n* Update todomvc example",
+          "timestamp": "2021-04-08T15:59:55Z",
+          "tree_id": "54093c395ca60a202339062fec3bed8175bdfa5b",
+          "url": "https://github.com/lukechu10/maple/commit/7d864c2de96d0d2ce7da77e9adba1db11a73b18b"
+        },
+        "date": 1617897825218,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 57892,
+            "range": "± 4626",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 572133,
+            "range": "± 26142",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2445,
+            "range": "± 31",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 114207,
+            "range": "± 1621",
             "unit": "ns/iter"
           }
         ]
