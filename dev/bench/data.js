@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1618384361273,
+  "lastUpdate": 1618385658843,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1487,6 +1487,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 106591,
             "range": "± 7653",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "351ef653ac8e0ac8cf45eb58bbf5b9e7c99a0fde",
+          "message": "Update Trunk to 0.11.0 (#96)\n\n* Set cache-control for netlify\r\n\r\n* Cache css\r\n\r\n* Update Trunk to 0.11.0\r\n\r\n* Fix cache-control\r\n\r\n* Fix pattern",
+          "timestamp": "2021-04-14T00:30:50-07:00",
+          "tree_id": "043a5605acf8bf0840524e85e80d4e5fc80be9e3",
+          "url": "https://github.com/lukechu10/maple/commit/351ef653ac8e0ac8cf45eb58bbf5b9e7c99a0fde"
+        },
+        "date": 1618385656956,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 52871,
+            "range": "± 2106",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 515468,
+            "range": "± 20229",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2255,
+            "range": "± 82",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 107329,
+            "range": "± 3146",
             "unit": "ns/iter"
           }
         ]
