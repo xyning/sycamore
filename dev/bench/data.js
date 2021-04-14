@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1618384234177,
+  "lastUpdate": 1618384361273,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1439,6 +1439,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 116178,
             "range": "± 7430",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "juanpatriciomarchetto@gmail.com",
+            "name": "Juan Patricio Marchetto",
+            "username": "JuanMarchetto"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e94012a634ba3abf9dd155befc34b6ffaa80aa86",
+          "message": "address issue #71 (#95)",
+          "timestamp": "2021-04-08T19:57:42-07:00",
+          "tree_id": "89560c2af68d8cf7ada088657f6f9b81c374d26d",
+          "url": "https://github.com/lukechu10/maple/commit/e94012a634ba3abf9dd155befc34b6ffaa80aa86"
+        },
+        "date": 1618384360429,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 51198,
+            "range": "± 3049",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 522541,
+            "range": "± 25627",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2460,
+            "range": "± 139",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 106591,
+            "range": "± 7653",
             "unit": "ns/iter"
           }
         ]
