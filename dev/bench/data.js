@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1618385658843,
+  "lastUpdate": 1618424172064,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1535,6 +1535,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 107329,
             "range": "± 3146",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "edadefa658276903157d6cbf8b08ec4c3cac1fff",
+          "message": "Website Lighthouse Improvements (#97)\n\n* improvements\r\n\r\n* Add robots.txt",
+          "timestamp": "2021-04-14T18:11:27Z",
+          "tree_id": "07e53467a140aff007fb01a244932d53ffdb00bf",
+          "url": "https://github.com/lukechu10/maple/commit/edadefa658276903157d6cbf8b08ec4c3cac1fff"
+        },
+        "date": 1618424170171,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 58604,
+            "range": "± 4027",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 558856,
+            "range": "± 24953",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2630,
+            "range": "± 144",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 119656,
+            "range": "± 5549",
             "unit": "ns/iter"
           }
         ]
