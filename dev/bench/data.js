@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617937280839,
+  "lastUpdate": 1618384157448,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1343,6 +1343,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 113043,
             "range": "± 473",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "b1699edab563e462d05d411dcd6b271e74f459b1",
+          "message": "Set cache-control for netlify",
+          "timestamp": "2021-04-14T00:05:40-07:00",
+          "tree_id": "d75b0400dbb1ba61a726d3043dda17afddb98035",
+          "url": "https://github.com/lukechu10/maple/commit/b1699edab563e462d05d411dcd6b271e74f459b1"
+        },
+        "date": 1618384157001,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 47252,
+            "range": "± 3309",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 491446,
+            "range": "± 46115",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2270,
+            "range": "± 247",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 99553,
+            "range": "± 10643",
             "unit": "ns/iter"
           }
         ]
