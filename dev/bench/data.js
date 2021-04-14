@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1618384157448,
+  "lastUpdate": 1618384234177,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1391,6 +1391,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 99553,
             "range": "± 10643",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "98253def6991ba6f7784bb47c7579c9006aa1c3b",
+          "message": "Cache css",
+          "timestamp": "2021-04-14T00:06:31-07:00",
+          "tree_id": "470069136f258ee8a929e428ddd01542f42b9310",
+          "url": "https://github.com/lukechu10/maple/commit/98253def6991ba6f7784bb47c7579c9006aa1c3b"
+        },
+        "date": 1618384233710,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 56327,
+            "range": "± 2747",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 552087,
+            "range": "± 19744",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2645,
+            "range": "± 139",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 116178,
+            "range": "± 7430",
             "unit": "ns/iter"
           }
         ]
