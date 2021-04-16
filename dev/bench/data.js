@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1618534713633,
+  "lastUpdate": 1618537337724,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1679,6 +1679,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 114365,
             "range": "± 1063",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "68db603627a26a2f47b3381ebcd2d2fb78a4baf4",
+          "message": "Better components (#100)\n\n* Make component generic over create function\r\n\r\n* Add component name in debug mode\r\n\r\n* Forward generics on component to function",
+          "timestamp": "2021-04-16T01:38:27Z",
+          "tree_id": "eabc5bd3cfdf7a73aee3d363fcf617e5c0fa4cc0",
+          "url": "https://github.com/lukechu10/maple/commit/68db603627a26a2f47b3381ebcd2d2fb78a4baf4"
+        },
+        "date": 1618537337264,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 56804,
+            "range": "± 1311",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 574165,
+            "range": "± 10210",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2760,
+            "range": "± 74",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 118667,
+            "range": "± 2598",
             "unit": "ns/iter"
           }
         ]
