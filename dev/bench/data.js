@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1618532547698,
+  "lastUpdate": 1618534713633,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1631,6 +1631,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 132125,
             "range": "± 10734",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "30116eb20412371a9b54bd3fe6a309035b963d59",
+          "message": "Rename `Owner` to `ReactiveScope` (#99)\n\n* Fix code style in easing.rs\r\n\r\n* Rename Owner to ReactiveScope\r\n\r\n* Remove bumpalo",
+          "timestamp": "2021-04-15T17:54:53-07:00",
+          "tree_id": "b50a258ec6b18691edd804293c2a74c2c3965996",
+          "url": "https://github.com/lukechu10/maple/commit/30116eb20412371a9b54bd3fe6a309035b963d59"
+        },
+        "date": 1618534713122,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 58039,
+            "range": "± 853",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 571281,
+            "range": "± 7349",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2473,
+            "range": "± 54",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 114365,
+            "range": "± 1063",
             "unit": "ns/iter"
           }
         ]
