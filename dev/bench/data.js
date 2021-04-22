@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1618537337724,
+  "lastUpdate": 1619110881345,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1727,6 +1727,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 118667,
             "range": "± 2598",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "creeper844@gmail.com",
+            "name": "Riey",
+            "username": "Riey"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "94db20a78aac56e60c3e5220ccfeb5b6f3f07b49",
+          "message": "Fix CHANGELOG typo (#102)",
+          "timestamp": "2021-04-22T09:57:13-07:00",
+          "tree_id": "242d907acd915ad0b9514adc70c7ab43bbd2d2c8",
+          "url": "https://github.com/lukechu10/maple/commit/94db20a78aac56e60c3e5220ccfeb5b6f3f07b49"
+        },
+        "date": 1619110880399,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 58467,
+            "range": "± 3496",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 587579,
+            "range": "± 33750",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2752,
+            "range": "± 138",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 119606,
+            "range": "± 5113",
             "unit": "ns/iter"
           }
         ]
