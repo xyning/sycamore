@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1619111400748,
+  "lastUpdate": 1622580677400,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1823,6 +1823,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 118217,
             "range": "± 2575",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "94ad7d3ad20f619f4e24f09557e1542ea85c6c13",
+          "message": "Update wasm-bindgen to v0.2.74 in .gitpod.Dockerfile (#108)",
+          "timestamp": "2021-06-01T20:47:39Z",
+          "tree_id": "55d4adc9bfffe876b4e5da93ab41c43d8f34cded",
+          "url": "https://github.com/lukechu10/maple/commit/94ad7d3ad20f619f4e24f09557e1542ea85c6c13"
+        },
+        "date": 1622580676905,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 55952,
+            "range": "± 965",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 576552,
+            "range": "± 11406",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2717,
+            "range": "± 103",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 117778,
+            "range": "± 2855",
             "unit": "ns/iter"
           }
         ]
