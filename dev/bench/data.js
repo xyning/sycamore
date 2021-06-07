@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623107432011,
-  "repoUrl": "https://github.com/lukechu10/maple",
+  "lastUpdate": 1623108509818,
+  "repoUrl": "https://github.com/lukechu10/sycamore",
   "entries": {
     "Benchmark": [
       {
@@ -1919,6 +1919,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 118442,
             "range": "± 2121",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f2b7f7ffaf1284f3e01e37f01d72c81edc054825",
+          "message": "Rename to sycamore (#109)",
+          "timestamp": "2021-06-07T16:22:47-07:00",
+          "tree_id": "507a10838f6fe1f1c3b7faf908a05302513182cb",
+          "url": "https://github.com/lukechu10/sycamore/commit/f2b7f7ffaf1284f3e01e37f01d72c81edc054825"
+        },
+        "date": 1623108509272,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 62322,
+            "range": "± 1876",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 640765,
+            "range": "± 27397",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2751,
+            "range": "± 98",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 131512,
+            "range": "± 5243",
             "unit": "ns/iter"
           }
         ]
