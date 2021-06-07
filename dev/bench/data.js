@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1622580677400,
+  "lastUpdate": 1623107432011,
   "repoUrl": "https://github.com/lukechu10/maple",
   "entries": {
     "Benchmark": [
@@ -1871,6 +1871,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 117778,
             "range": "± 2855",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "80371dcbfbd1bdaa166ed52c1ba113b4589a1595",
+          "message": "Text in `TemplateResult` (#104)\n\n* rust_2018_idioms\r\n\r\n* Ccorrectly stringify self-closing tags in SSR\r\n\r\n* Rename render to create\r\n\r\n* Move render_* functions into sub-modules\r\n\r\n* Naive hydration\r\n\r\n* get_children utility\r\n\r\n* Add mapped and indexed placeholder\r\n\r\n* Allow effects to be FnMut (#103)\r\n\r\n* Allow effects to be FnMut\r\n\r\n* Only add -Dwarnings for clippy\r\n\r\n* Set CARGO_TERM_COLOR to always\r\n\r\n* map_indexed\r\n\r\n* Implement map_keyed\r\n\r\n* Add fast paths for map_keyed\r\n\r\n* Make TemplateResult recursive\r\n\r\n* Make map_* return closures\r\n\r\n* Refactor TemplateResult\r\n\r\n* Add a Lazy TemplateResult\r\n\r\n* Allow create_memo and create_selector to take FnMut\r\n\r\n* Fix unit tests\r\n\r\n* Change TemplateResultInner::Lazy to be FnMut\r\n\r\n* insert_expression node and lazy\r\n\r\n* Make most of the tests pass\r\n\r\n* Remove append_render\r\n\r\n* Make Lazy work\r\n\r\n* Fix reactivity\r\n\r\n* Make fragment template work\r\n\r\n* renconcile_fragments\r\n\r\n* Support TemplateResult in interpolation syntax\r\n\r\n* wip\r\n\r\n* wip\r\n\r\n* Push lazy TemplateResult to normalized\r\n\r\n* wip\r\n\r\n* wip\r\n\r\n* NodeId\r\n\r\n* Add renconcile tests\r\n\r\n* Add reconcile do not clone node test\r\n\r\n* Update wasm-bindgen to 0.2.74 in CI\r\n\r\n* Interpolation nested reactivity test\r\n\r\n* Remove Option from TemplateResultInner::Lazy type\r\n\r\n* cargo clippy\r\n\r\n* Append fragment nodes at the right location\r\n\r\n* wip\r\n\r\n* refactor\r\n\r\n* refactor\r\n\r\n* Fix map_keyed\r\n\r\n* Fix clippy\r\n\r\n* Remove unused NodeRef in TodoMVC example\r\n\r\n* Remove fragment from GenericNode\r\n\r\n* Remove Fragment from SsrNode\r\n\r\n* Refactor SsrNode::try_remove_child\r\n\r\n* Deprecate TemplateResult::flatten\r\n\r\n* Change Render to IntoTemplate\r\n\r\n* Refactor rendering of template fragments\r\n\r\n* Rewrite impl ToTokens for Element\r\n\r\n* Split up ToTokens in element.rs\r\n\r\n* Visitor pattern for Html nodes\r\n\r\n* TemplateVisitor\r\n\r\n* Insert components and interpolated values before a marker\r\n\r\n* Fix nested fragments\r\n\r\n* Lazy in fragment test\r\n\r\n* Fix DomNode::replace_child\r\n\r\n* Fix Indexed and Keyed\r\n\r\n* Fix iteration example\r\n\r\n* Fix reconcile\r\n\r\n* Pass the wasm test suite!!!\r\n\r\n* Fix the ssr test",
+          "timestamp": "2021-06-07T23:07:08Z",
+          "tree_id": "f7ad5c5bb61bee82f978ded2e119929ea946b85f",
+          "url": "https://github.com/lukechu10/maple/commit/80371dcbfbd1bdaa166ed52c1ba113b4589a1595"
+        },
+        "date": 1623107431508,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 57416,
+            "range": "± 785",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 583933,
+            "range": "± 13993",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2338,
+            "range": "± 40",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 118442,
+            "range": "± 2121",
             "unit": "ns/iter"
           }
         ]
