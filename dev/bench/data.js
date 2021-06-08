@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623189336391,
+  "lastUpdate": 1623189828467,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -2207,6 +2207,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 117333,
             "range": "± 4012",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8c9b1f35f7fc5c6a82f0916f1926dae8af0c2698",
+          "message": "Rename reactive to rx (#113)",
+          "timestamp": "2021-06-08T22:00:24Z",
+          "tree_id": "660cf67251b041d15204193bef84aa68411fd6bc",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/8c9b1f35f7fc5c6a82f0916f1926dae8af0c2698"
+        },
+        "date": 1623189827992,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 56565,
+            "range": "± 2981",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 610785,
+            "range": "± 5817",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2438,
+            "range": "± 23",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 121793,
+            "range": "± 1057",
             "unit": "ns/iter"
           }
         ]
