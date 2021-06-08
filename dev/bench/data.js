@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623112640998,
+  "lastUpdate": 1623112734926,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -2063,6 +2063,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 120070,
             "range": "± 1389",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "ef40b4561e217688fb3fd3a51a05dc1654b5162d",
+          "message": "Fix README.md path",
+          "timestamp": "2021-06-07T17:35:01-07:00",
+          "tree_id": "fd7fbee97327f0eecffc247d7d2062639bfe1bc3",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/ef40b4561e217688fb3fd3a51a05dc1654b5162d"
+        },
+        "date": 1623112733768,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 58282,
+            "range": "± 3184",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 621002,
+            "range": "± 57010",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2403,
+            "range": "± 35",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 119837,
+            "range": "± 1877",
             "unit": "ns/iter"
           }
         ]
