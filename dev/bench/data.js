@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623189828467,
+  "lastUpdate": 1623279832394,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -2255,6 +2255,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 121793,
             "range": "± 1057",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6c1f19282375da9c44a6771b2a472109f533a98b",
+          "message": "Add micro-benchmarks for `map_indexed` and `map_keyed` (#115)\n\n* Add micro-benchmarks for map_keyed and map_indexed\r\n\r\n* Add some optimizations",
+          "timestamp": "2021-06-09T16:00:25-07:00",
+          "tree_id": "eb9ff290eab209d4e4dca7bc60c1608ea98590f1",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/6c1f19282375da9c44a6771b2a472109f533a98b"
+        },
+        "date": 1623279831940,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 46956,
+            "range": "± 247",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 504468,
+            "range": "± 2995",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2294,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 105758,
+            "range": "± 2446",
             "unit": "ns/iter"
           }
         ]
