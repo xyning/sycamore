@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623288298270,
+  "lastUpdate": 1623350470242,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -2411,6 +2411,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 118583,
             "range": "± 2344",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4ff2e7625b2f09243acce7121f6153150613131c",
+          "message": "TailwindCSS for docs website (#117)\n\n* New tailwindcss navbar\r\n\r\n* Index page\r\n\r\n* Content page",
+          "timestamp": "2021-06-10T11:36:54-07:00",
+          "tree_id": "aa07216d3b97410d207dbf419c052ace9bbb1fab",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/4ff2e7625b2f09243acce7121f6153150613131c"
+        },
+        "date": 1623350469123,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 53438,
+            "range": "± 3157",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 590406,
+            "range": "± 29049",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 15877,
+            "range": "± 1051",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 33932,
+            "range": "± 2763",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2536,
+            "range": "± 111",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 118013,
+            "range": "± 8914",
             "unit": "ns/iter"
           }
         ]
