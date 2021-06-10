@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623279832394,
+  "lastUpdate": 1623287931874,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -2303,6 +2303,54 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 105758,
             "range": "± 2446",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "68abeb0a36355c06714a0ac3584921071b3d3fe4",
+          "message": "Run js-framework-benchmark in CI (#114)\n\n* Add js-framework-benchmark example\r\n\r\n* Use references more often in generic_node::render\r\n\r\n* Add js framework benchmark workflow\r\n\r\n* Fix search Cargo.toml\r\n\r\n* Do not use http crate to start server\r\n\r\n* Add if always() to steps\r\n\r\n* Update workflows\r\n\r\n* Remove set-env\r\n\r\n* Fix env variable\r\n\r\n* Update workflow\r\n\r\n* Remove js-framework-benchmark example\r\n\r\n* Fix workflow\r\n\r\n* Update js_framework_bench.yml",
+          "timestamp": "2021-06-09T18:15:08-07:00",
+          "tree_id": "20e8e2d0d4ae0a8c840edc4b02ebf75dc695c3be",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/68abeb0a36355c06714a0ac3584921071b3d3fe4"
+        },
+        "date": 1623287931328,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 42887,
+            "range": "± 1021",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 450231,
+            "range": "± 14564",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2018,
+            "range": "± 100",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 94498,
+            "range": "± 2331",
             "unit": "ns/iter"
           }
         ]
