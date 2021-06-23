@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623352908069,
+  "lastUpdate": 1624474218054,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -2531,6 +2531,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 105199,
             "range": "± 95",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "db69e72f96e352e31fed7da4ce091262914f33a1",
+          "message": "Sycamore Router (#118)\n\n* Create sycamore-router and  sycamore-router-macro crates\r\n\r\n* Route matching implementation\r\n\r\n* Route parser\r\n\r\n* Fields::Unnamed\r\n\r\n* Router codegen\r\n\r\n* Add more trybuild tests\r\n\r\n* Add integration tests\r\n\r\n* Rename proc-macro Router to Route\r\n\r\n* Rename trait Router to Route\r\n\r\n* wip\r\n\r\n* StaticRouter, Link and BrowserRouter\r\n\r\n* history.pushState\r\n\r\n* Use sycamore_router for docs\r\n\r\n* Listen to onpopstate",
+          "timestamp": "2021-06-23T18:46:11Z",
+          "tree_id": "cfba0d9d3d695107a2df788307450ae5076f957b",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/db69e72f96e352e31fed7da4ce091262914f33a1"
+        },
+        "date": 1624474217529,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 55261,
+            "range": "± 608",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 597196,
+            "range": "± 7925",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 16787,
+            "range": "± 247",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 35404,
+            "range": "± 460",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2406,
+            "range": "± 37",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 121203,
+            "range": "± 458",
             "unit": "ns/iter"
           }
         ]
