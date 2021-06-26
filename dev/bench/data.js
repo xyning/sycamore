@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1624643148439,
+  "lastUpdate": 1624749550226,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -2651,6 +2651,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 121381,
             "range": "± 1373",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bf985c0b8593dcadf968da4bbe6cb6350a126c6d",
+          "message": "Various performance improvements (#126)\n\n* Intern tag string for DomNode::element\r\n\r\n* Update js_framework_bench.yml\r\n\r\n* Fix read file contents path in workflow\r\n\r\n* Use a key function in map_keyed\r\n\r\n* Intern string literals in sycamore-macro\r\n\r\n* Intern attribute name\r\n\r\n* Drop event handler on_cleanup\r\n\r\n* Fix test",
+          "timestamp": "2021-06-26T16:15:06-07:00",
+          "tree_id": "6c131adc4211891b7f86a94c94560e60ce540c19",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/bf985c0b8593dcadf968da4bbe6cb6350a126c6d"
+        },
+        "date": 1624749549740,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 54955,
+            "range": "± 3812",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 645519,
+            "range": "± 11797",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 18398,
+            "range": "± 298",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 37652,
+            "range": "± 823",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2577,
+            "range": "± 44",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 124537,
+            "range": "± 1947",
             "unit": "ns/iter"
           }
         ]
