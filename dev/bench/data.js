@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1624817184957,
+  "lastUpdate": 1624820505966,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -2771,6 +2771,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 123214,
             "range": "± 9384",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lukewchu@outlook.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "lukewchu@outlook.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "6d5c6d6a488bcaca0cfda6c92ab0d1758c049cd4",
+          "message": "v0.5.0-beta.1",
+          "timestamp": "2021-06-27T18:56:37Z",
+          "tree_id": "43911e167e373d314892b2443c54ef3de4d1963c",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/6d5c6d6a488bcaca0cfda6c92ab0d1758c049cd4"
+        },
+        "date": 1624820504873,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 56766,
+            "range": "± 3641",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 669142,
+            "range": "± 21232",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 17502,
+            "range": "± 740",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 36904,
+            "range": "± 883",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2848,
+            "range": "± 344",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 131506,
+            "range": "± 5552",
             "unit": "ns/iter"
           }
         ]
