@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625016000248,
+  "lastUpdate": 1625030070233,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -3011,6 +3011,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 111837,
             "range": "± 143",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f3e877b4d9afd423c15c8760edabbbf6ae4a20dd",
+          "message": "Website improvements (#134)\n\n* Get outline from markdown parser\r\n\r\n* Extract outline from markdown\r\n\r\n* OutlineView\r\n\r\n* Add sidebar\r\n\r\n* Update docs website\r\n\r\n* Add discord link to header",
+          "timestamp": "2021-06-29T22:10:14-07:00",
+          "tree_id": "f07dbf5edd9666174fa31455d443e5ee20be61bf",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/f3e877b4d9afd423c15c8760edabbbf6ae4a20dd"
+        },
+        "date": 1625030069589,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 56534,
+            "range": "± 2967",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 636690,
+            "range": "± 44580",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 17596,
+            "range": "± 843",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 39671,
+            "range": "± 1545",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2669,
+            "range": "± 205",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 125914,
+            "range": "± 7323",
             "unit": "ns/iter"
           }
         ]
