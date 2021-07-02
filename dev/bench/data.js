@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625192515654,
+  "lastUpdate": 1625194532984,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -3371,6 +3371,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 90506,
             "range": "± 3759",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "97d869a9d86c9704244e672748154acaff5bdbee",
+          "message": "Remove render functions from prelude (#140)\n\n* Remove render functions from prelude\r\n\r\n* Fix workflow\r\n\r\n* Remove mod into_template\r\n\r\n* Fix do not remove all children when reactive text updates",
+          "timestamp": "2021-07-01T19:51:04-07:00",
+          "tree_id": "cb7c39dde3750d083b636e54b52ad2e91a03d725",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/97d869a9d86c9704244e672748154acaff5bdbee"
+        },
+        "date": 1625194531859,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 55038,
+            "range": "± 1987",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 669526,
+            "range": "± 23369",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 17791,
+            "range": "± 2749",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 40206,
+            "range": "± 2519",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2808,
+            "range": "± 279",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 87004,
+            "range": "± 2523",
             "unit": "ns/iter"
           }
         ]
