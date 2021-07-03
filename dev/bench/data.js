@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625267870061,
+  "lastUpdate": 1625354717851,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -3671,6 +3671,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 79680,
             "range": "± 5153",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ef175728fd34a3f2309160bb17339de0dcc861d7",
+          "message": "Remove unnecessary `Rc<RefCell<_>>`s (#141)\n\n* Remove Rc<RefCell<_>> from create_effect_initial\r\n\r\n* Fix issue Remove unnecessary `Rc` #131\r\n\r\n* Make new_indices_next more compact\r\n\r\n* Remove some Rc::clone\r\n\r\n* Fix install wasm-pack",
+          "timestamp": "2021-07-03T16:21:09-07:00",
+          "tree_id": "32f04f6eb5fa4f17054e8801241bd3d757fa1c91",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/ef175728fd34a3f2309160bb17339de0dcc861d7"
+        },
+        "date": 1625354716670,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 60385,
+            "range": "± 4008",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 702482,
+            "range": "± 3675",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 19543,
+            "range": "± 83",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 43474,
+            "range": "± 366",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2836,
+            "range": "± 171",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 91851,
+            "range": "± 938",
             "unit": "ns/iter"
           }
         ]
