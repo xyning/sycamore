@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625597303221,
+  "lastUpdate": 1625612600775,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -3911,6 +3911,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 85811,
             "range": "± 1955",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "abf16273315ec521458082ab276bda949840ce5f",
+          "message": "Template eagerly evaluate Dyn with memo (#146)\n\n* Rename Template lazy to dyn\r\n\r\n* Make template use StateHandle\r\n\r\n* Remove useless function\r\n\r\n* Move generic_template::render to utils::render\r\n\r\n* Remove some cloning\r\n\r\n* Wrap Template fragments inside a Rc\r\n\r\n* Update benches\r\n\r\n* Single dom node optimization",
+          "timestamp": "2021-07-06T15:58:53-07:00",
+          "tree_id": "0687e11dbb5f5f8cbfc23a0af6555db6c289bfed",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/abf16273315ec521458082ab276bda949840ce5f"
+        },
+        "date": 1625612599625,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 48479,
+            "range": "± 2833",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 668624,
+            "range": "± 21734",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 18567,
+            "range": "± 960",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 37021,
+            "range": "± 1632",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2758,
+            "range": "± 470",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 117764,
+            "range": "± 6343",
             "unit": "ns/iter"
           }
         ]
