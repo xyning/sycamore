@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625372980876,
+  "lastUpdate": 1625547138397,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -3791,6 +3791,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 81424,
             "range": "± 4841",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b5ef37056ebff72afcaad35e51cd05d2dbdf5fa",
+          "message": "Dependency count utility function (#144)\n\n* Add some comments\r\n\r\n* Add nested effects trigger outer effect test",
+          "timestamp": "2021-07-06T04:48:19Z",
+          "tree_id": "42b8a8b6a20a8a1ee8e626c08ca685f283ac9a70",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/9b5ef37056ebff72afcaad35e51cd05d2dbdf5fa"
+        },
+        "date": 1625547137911,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 54800,
+            "range": "± 2347",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 660604,
+            "range": "± 55905",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 18519,
+            "range": "± 1267",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 35266,
+            "range": "± 1720",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2812,
+            "range": "± 133",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 88251,
+            "range": "± 5256",
             "unit": "ns/iter"
           }
         ]
