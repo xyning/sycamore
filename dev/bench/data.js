@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625547138397,
+  "lastUpdate": 1625597303221,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -3851,6 +3851,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 88251,
             "range": "± 5256",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7ac9f1aa561879a2b8649c6e718f5dff2c997a4c",
+          "message": "Do not assume Signal is valid for entire duration of effect and make effect triggers deterministic (#145)\n\n* Add create_nested_effect_from_outside test\r\n\r\n* Add outer effects rerun first test\r\n\r\n* Fix docs typo\r\n\r\n* Deterministic effect trigger\r\n\r\n* Make Dependency take a strong backlink\r\n\r\n* Fix typo in template! proc-macro",
+          "timestamp": "2021-07-06T18:44:29Z",
+          "tree_id": "bc28a6f5849bf541045b40e3b00f1dd9eae6061a",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/7ac9f1aa561879a2b8649c6e718f5dff2c997a4c"
+        },
+        "date": 1625597302696,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 49815,
+            "range": "± 211",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 676429,
+            "range": "± 9085",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 17362,
+            "range": "± 664",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 38419,
+            "range": "± 1681",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2642,
+            "range": "± 47",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 85811,
+            "range": "± 1955",
             "unit": "ns/iter"
           }
         ]
