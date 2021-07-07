@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625679161310,
+  "lastUpdate": 1625683008105,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -4091,6 +4091,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 91915,
             "range": "± 7118",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "97612e87413fd53c1835baaf6df4efcde69f2f90",
+          "message": "Add news section to website (#149)\n\n* Remove Hash bound for Keyed T\r\n\r\n* v0.5.0 release post\r\n\r\n* Add news to navbar",
+          "timestamp": "2021-07-07T11:32:47-07:00",
+          "tree_id": "7b8b2d61202b3ef6766ef491d5ccf723c7a06a17",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/97612e87413fd53c1835baaf6df4efcde69f2f90"
+        },
+        "date": 1625683007559,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 52744,
+            "range": "± 2371",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 722536,
+            "range": "± 27712",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 19927,
+            "range": "± 1024",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 45644,
+            "range": "± 926",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2797,
+            "range": "± 98",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 121446,
+            "range": "± 4670",
             "unit": "ns/iter"
           }
         ]
