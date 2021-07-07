@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625683378424,
+  "lastUpdate": 1625685456194,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -4211,6 +4211,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 108106,
             "range": "± 390",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "96b051481511d7719c47907779f444c307c0de65",
+          "message": "Blog improvements (#150)\n\n* Add quickstart templates to release post\r\n\r\n* Update news index page",
+          "timestamp": "2021-07-07T12:13:31-07:00",
+          "tree_id": "5b7b5c88eeb8129db8662cac6fd8cc0f2af81436",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/96b051481511d7719c47907779f444c307c0de65"
+        },
+        "date": 1625685455628,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 41720,
+            "range": "± 1717",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 625692,
+            "range": "± 55546",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 16717,
+            "range": "± 1276",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 33921,
+            "range": "± 1897",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2442,
+            "range": "± 125",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 96434,
+            "range": "± 7170",
             "unit": "ns/iter"
           }
         ]
