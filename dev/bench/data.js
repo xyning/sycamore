@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625769272862,
+  "lastUpdate": 1625777465750,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -4511,6 +4511,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 48076,
             "range": "± 3007",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f8f0e3d7f74cf0c92e15593b125236940cb3fc0c",
+          "message": "Faster effects (#159)\n\n* Do not clear old dependencies on initial\r\n\r\n* Subscribe/unsubscribe signals only belonging to diff\r\n\r\n* Revert \"Subscribe/unsubscribe signals only belonging to diff\"\r\n\r\nThis reverts commit db0ef3007963a8069e1bb16f86601e2c2fdb0a60.",
+          "timestamp": "2021-07-08T13:47:25-07:00",
+          "tree_id": "5774b233168a6f74b2b44e5c5cc854c5384fecb3",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/f8f0e3d7f74cf0c92e15593b125236940cb3fc0c"
+        },
+        "date": 1625777465242,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 42190,
+            "range": "± 47",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 627299,
+            "range": "± 3194",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 22559,
+            "range": "± 19",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 37214,
+            "range": "± 32",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1555,
+            "range": "± 11",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 36678,
+            "range": "± 47",
             "unit": "ns/iter"
           }
         ]
