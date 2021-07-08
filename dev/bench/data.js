@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625685456194,
+  "lastUpdate": 1625714627862,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -4271,6 +4271,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 96434,
             "range": "± 7170",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "05852c57cb8f780ab128a492db4486b9da21ca22",
+          "message": "Reduce allocations when creating templates (#143)\n\n* Add GenericNode::clone_node\r\n\r\n* GenericNode::first_child\r\n\r\n* Optimize create_effect_initial\r\n\r\n* Disable interning\r\n\r\n* Reenable interning\r\n\r\n* Prevent calling format in IntoTemplate\r\n\r\n* Remove unnecessary clone\r\n\r\n* Revert \"Remove unnecessary clone\"\r\n\r\nThis reverts commit d7adc2bb993034e6bb8456ec292ed3ea34f2b598.\r\n\r\n* Remove instances of format! from sycamore-macro codegen\r\n\r\n* Do not put static attributes inside an effect",
+          "timestamp": "2021-07-08T03:19:53Z",
+          "tree_id": "4161d661bb1cf4f24314705695743159ef4b1f5d",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/05852c57cb8f780ab128a492db4486b9da21ca22"
+        },
+        "date": 1625714627339,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 55117,
+            "range": "± 221",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 708755,
+            "range": "± 2951",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 19644,
+            "range": "± 11",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 42646,
+            "range": "± 250",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1712,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 74254,
+            "range": "± 97",
             "unit": "ns/iter"
           }
         ]
