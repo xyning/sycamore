@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625719771548,
+  "lastUpdate": 1625766611157,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -4391,6 +4391,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 75206,
             "range": "± 3692",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7df7a7a06a035b3da57daa5b59c69819aa533db0",
+          "message": "Performance improvements (#155)\n\n* Remove Drop implementation for Running\r\n\r\n* Use a SmallVec in ReactiveScope\r\n\r\n* Initialize IndexSet with capacity\r\n\r\n* Initialize HashMap with initial capacity\r\n\r\n* HashMap::with_capacity in reconcile_fragments\r\n\r\n* Revert \"Initialize IndexSet with capacity\"\r\n\r\n* Update js_framework_bench.yml\r\n\r\n* Do not create effect if simple ident",
+          "timestamp": "2021-07-08T10:46:25-07:00",
+          "tree_id": "0f934b5afa3fe3a86c0b6d92e4569cd492c93129",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/7df7a7a06a035b3da57daa5b59c69819aa533db0"
+        },
+        "date": 1625766610602,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 48979,
+            "range": "± 1007",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 726947,
+            "range": "± 14572",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 25574,
+            "range": "± 683",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 42740,
+            "range": "± 1114",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1632,
+            "range": "± 44",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 42015,
+            "range": "± 754",
             "unit": "ns/iter"
           }
         ]
