@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625766611157,
+  "lastUpdate": 1625769272862,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -4451,6 +4451,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 42015,
             "range": "± 754",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a68f6c9dcadabcedb6a4a37a42d9365e5b7fa98d",
+          "message": "Set className directly instead of calling setAttribute (#157)\n\n* Set className directly instead of calling setAttribute\r\n\r\n* Do not provide default implementation on GenericNode",
+          "timestamp": "2021-07-08T11:30:17-07:00",
+          "tree_id": "0d0564b9d144d3315515a9fb38c6d38735ee9b21",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/a68f6c9dcadabcedb6a4a37a42d9365e5b7fa98d"
+        },
+        "date": 1625769272255,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 51615,
+            "range": "± 2898",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 699846,
+            "range": "± 36293",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 23748,
+            "range": "± 1764",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 39628,
+            "range": "± 2195",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1886,
+            "range": "± 118",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 48076,
+            "range": "± 3007",
             "unit": "ns/iter"
           }
         ]
