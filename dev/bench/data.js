@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625777465750,
+  "lastUpdate": 1625853046928,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -4571,6 +4571,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 36678,
             "range": "± 47",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3fa45162f4b8472c689321989225fa8a7a07d03e",
+          "message": "Versioned docs (#160)\n\n* Subscribe/unsubscribe signals only belonging to diff\r\n\r\n* Revert \"Subscribe/unsubscribe signals only belonging to diff\"\r\n\r\nThis reverts commit db0ef3007963a8069e1bb16f86601e2c2fdb0a60.\r\n\r\n* Rename docs to website\r\n\r\n* Fix cargo workspace\r\n\r\n* Prebuild docs markdown\r\n\r\n* Fix type error\r\n\r\n* Prerender posts\r\n\r\n* Add versioned docs\r\n\r\n* Fix build script\r\n\r\n* Add version switcher\r\n\r\n* Warning for next/outdated version\r\n\r\n* Fix\r\n\r\n* Make version text bold\r\n\r\n* Fix margins",
+          "timestamp": "2021-07-09T10:46:44-07:00",
+          "tree_id": "384273784b12d4f830ec0f63d1933cd04aea93f6",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/3fa45162f4b8472c689321989225fa8a7a07d03e"
+        },
+        "date": 1625853045739,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 49822,
+            "range": "± 2490",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 710028,
+            "range": "± 37964",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 26247,
+            "range": "± 827",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 42106,
+            "range": "± 2002",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1614,
+            "range": "± 86",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 42160,
+            "range": "± 1372",
             "unit": "ns/iter"
           }
         ]
