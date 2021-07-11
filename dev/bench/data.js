@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625943146209,
+  "lastUpdate": 1626030723692,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -4751,6 +4751,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 42687,
             "range": "± 823",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "baile320@umn.edu",
+            "name": "Tyler Bailey",
+            "username": "baile320"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2849342d56a61b88388241afff9ddee07757e3b3",
+          "message": "Router should not prevent default if meta keys are held down (#165)\n\n* check if meta keys are pressed during routing\r\n\r\n* alphabetize web-sys dependencies for router",
+          "timestamp": "2021-07-11T19:07:54Z",
+          "tree_id": "fa86e2510f6be42060b8f297bf903c9d6af912ed",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/2849342d56a61b88388241afff9ddee07757e3b3"
+        },
+        "date": 1626030722668,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 49270,
+            "range": "± 3851",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 705342,
+            "range": "± 38163",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 23882,
+            "range": "± 1888",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 41570,
+            "range": "± 3884",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1877,
+            "range": "± 146",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 41765,
+            "range": "± 2611",
             "unit": "ns/iter"
           }
         ]
