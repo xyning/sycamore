@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1626037044423,
+  "lastUpdate": 1626047329008,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -4991,6 +4991,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 37020,
             "range": "± 44",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tshepang@gmail.com",
+            "name": "Tshepang Lekhonkhobe",
+            "username": "tshepang"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4340df03ee517f0cef3599d7b83c5270c89448ec",
+          "message": "fix intra-doc link (#162)",
+          "timestamp": "2021-07-11T16:44:43-07:00",
+          "tree_id": "1b90313c682223472823ad69e7d9b70d5e87063f",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/4340df03ee517f0cef3599d7b83c5270c89448ec"
+        },
+        "date": 1626047327860,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 53210,
+            "range": "± 355",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 781968,
+            "range": "± 2941",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 28066,
+            "range": "± 27",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 47007,
+            "range": "± 29",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1784,
+            "range": "± 12",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 45469,
+            "range": "± 67",
             "unit": "ns/iter"
           }
         ]
