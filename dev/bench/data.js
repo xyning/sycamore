@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1626047329008,
+  "lastUpdate": 1626126186593,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -5051,6 +5051,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 45469,
             "range": "± 67",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Gearme@users.noreply.github.com",
+            "name": "Gerald Melles",
+            "username": "Gearme"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2073eb72c4c7d77176868cdcbfe2b70974c49a0e",
+          "message": "Explicitly enable std feature for indexmap (#170)",
+          "timestamp": "2021-07-12T21:39:28Z",
+          "tree_id": "071ee7cb56dbae2a2a18e23557a7ccae0690ef4c",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/2073eb72c4c7d77176868cdcbfe2b70974c49a0e"
+        },
+        "date": 1626126185960,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 43448,
+            "range": "± 110",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 622264,
+            "range": "± 2314",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 21749,
+            "range": "± 16",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 36632,
+            "range": "± 149",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1605,
+            "range": "± 6",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 37207,
+            "range": "± 811",
             "unit": "ns/iter"
           }
         ]
