@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1626126186593,
+  "lastUpdate": 1626127291548,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -5111,6 +5111,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 37207,
             "range": "± 811",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d88683ee9879bdeca3edc047e855bd2f35db06f5",
+          "message": "Context API (#169)\n\n* Make SCOPE an explicit stack rather than relying on callstack\r\n\r\n* Context API\r\n\r\n* Add context example\r\n\r\n* Add docs for context\r\n\r\n* Add unit test\r\n\r\n* Fix test\r\n\r\n* Make ReactiveScope more compact\r\n\r\n* Do not destroy cleanup right after children is evaluated",
+          "timestamp": "2021-07-12T14:57:29-07:00",
+          "tree_id": "0aa4749fccaec3111f4744136383cdd0426936a0",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/d88683ee9879bdeca3edc047e855bd2f35db06f5"
+        },
+        "date": 1626127290985,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 43574,
+            "range": "± 2620",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 621433,
+            "range": "± 44339",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 19681,
+            "range": "± 1187",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 35242,
+            "range": "± 2912",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1611,
+            "range": "± 112",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 38295,
+            "range": "± 2143",
             "unit": "ns/iter"
           }
         ]
