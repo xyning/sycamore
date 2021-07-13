@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1626127291548,
+  "lastUpdate": 1626195895385,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -5171,6 +5171,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 38295,
             "range": "± 2143",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51c6c8b90b57facf0c0e485df58d88937404ffae",
+          "message": "Tweak performance (#171)\n\n* fix\r\n\r\n* Tweak SmallVec stack size\r\n\r\n* Do not upcast Callback in Hash and PartialEq\r\n\r\n* Remove rand dependency\r\n\r\n* Fix cargo check\r\n\r\n* Prevent unnecessary upcasting and downcasting of Callback\r\n\r\n* Reduce RefCell checks\r\n\r\n* Organize imports",
+          "timestamp": "2021-07-13T10:00:56-07:00",
+          "tree_id": "bac33a432984cb23f0e4a70d81efa569e4fc9c88",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/51c6c8b90b57facf0c0e485df58d88937404ffae"
+        },
+        "date": 1626195894848,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 51042,
+            "range": "± 275",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 604067,
+            "range": "± 29599",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 18353,
+            "range": "± 1119",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 34873,
+            "range": "± 495",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1667,
+            "range": "± 59",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 42911,
+            "range": "± 2201",
             "unit": "ns/iter"
           }
         ]
