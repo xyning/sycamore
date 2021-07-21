@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1626575040047,
+  "lastUpdate": 1626830378082,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -5411,6 +5411,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 43063,
             "range": "± 59",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joel.dice@gmail.com",
+            "name": "Joel Dice",
+            "username": "dicej"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ef84e31d68a5ece98569d66f5c3f0115e78c6eff",
+          "message": "fix logic error in `reconcile_fragments` (#180)\n\nI noticed when using the `Keyed` component that when the `KeyedProps::iterable`\r\nvalue changed from a large `Vec` to a smaller one containing a subset of the\r\noriginal, not all the obsolete nodes were removed from the DOM.\r\n\r\nSpecifically, I started with a `Vec` with 10 elements, then removed all but the\r\nthird one.  The nodes before the remaining node were removed, but not the ones\r\nafter it.  This patch fixes the problem.",
+          "timestamp": "2021-07-21T01:15:38Z",
+          "tree_id": "0b7811c24ab86869c4e4928bbe10e1eedad56ffa",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/ef84e31d68a5ece98569d66f5c3f0115e78c6eff"
+        },
+        "date": 1626830376926,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 48127,
+            "range": "± 1195",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 617063,
+            "range": "± 13664",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 16994,
+            "range": "± 310",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 34243,
+            "range": "± 567",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1699,
+            "range": "± 11",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 42966,
+            "range": "± 450",
             "unit": "ns/iter"
           }
         ]
