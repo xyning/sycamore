@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1627170799562,
+  "lastUpdate": 1627433406677,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -5591,6 +5591,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 43610,
             "range": "± 375",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "55a94d8fda5c56bf9d84167bf7f9664e28439838",
+          "message": "Router preload (#185)\n\n* Router integrations\r\n\r\n* Update router docs\r\n\r\n* Add comment\r\n\r\n* Make match_routes async\r\n\r\n* Add preload function\r\n\r\n* Fix clippy warnings in generated code\r\n\r\n* Use preload for docs\r\n\r\n* Fix: do not run preload functions of another route\r\n\r\n* Fix preload for news\r\n\r\n* Use syntect instead of highlight.js\r\n\r\n* Add docs for preloading\r\n\r\n* StaticRouter",
+          "timestamp": "2021-07-28T00:46:31Z",
+          "tree_id": "5b8ca0cde3227f4a89c994b390cccb8a00312be9",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/55a94d8fda5c56bf9d84167bf7f9664e28439838"
+        },
+        "date": 1627433406046,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 40544,
+            "range": "± 122",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 530781,
+            "range": "± 2999",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 14871,
+            "range": "± 92",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 28818,
+            "range": "± 37",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1366,
+            "range": "± 9",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 36167,
+            "range": "± 195",
             "unit": "ns/iter"
           }
         ]
