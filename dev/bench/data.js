@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1627433406677,
+  "lastUpdate": 1627518840862,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -5651,6 +5651,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 36167,
             "range": "± 195",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "gao96@yahoo.com",
+            "name": "Ochism",
+            "username": "Ochism"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a742784d62ad03582ca63fe7516a317a0430d0b8",
+          "message": "Added scroll to top when we navigate (#186)",
+          "timestamp": "2021-07-28T17:30:17-07:00",
+          "tree_id": "9eaf4f0e3d70f6d4316a22b29c96a67f26c97b84",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/a742784d62ad03582ca63fe7516a317a0430d0b8"
+        },
+        "date": 1627518840315,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 40366,
+            "range": "± 61",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 527141,
+            "range": "± 3172",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 14725,
+            "range": "± 13",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 29663,
+            "range": "± 178",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1537,
+            "range": "± 8",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 36173,
+            "range": "± 37",
             "unit": "ns/iter"
           }
         ]
