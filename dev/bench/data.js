@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1627669785692,
+  "lastUpdate": 1627761433260,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -5771,6 +5771,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 42765,
             "range": "± 3275",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "affa5cd959561d04277c781f6ace707aa6ee7deb",
+          "message": "Implement dangerously_set_inner_html (#190)\n\n* Wrap code blocks on website\r\n\r\n* Update template.md\r\n\r\n* Fix clippy warnings\r\n\r\n* GenericNode::dangerously_set_inner_html\r\n\r\n* dangerously_set_inner_html in template!\r\n\r\n* Update workflows to use action-rs/toolchain\r\n\r\n* Fix cargo cache\r\n\r\n* Fix workflow syntax error\r\n\r\n* Update docs",
+          "timestamp": "2021-07-31T12:52:45-07:00",
+          "tree_id": "a0df20f02266bce67067845ccf7db642031b1469",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/affa5cd959561d04277c781f6ace707aa6ee7deb"
+        },
+        "date": 1627761432100,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 44453,
+            "range": "± 1150",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 616638,
+            "range": "± 16180",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 17037,
+            "range": "± 773",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 33509,
+            "range": "± 933",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1745,
+            "range": "± 38",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 40539,
+            "range": "± 1706",
             "unit": "ns/iter"
           }
         ]
