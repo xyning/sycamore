@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1627765959063,
+  "lastUpdate": 1627952145564,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -5951,6 +5951,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 40554,
             "range": "± 2067",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tshepang@gmail.com",
+            "name": "Tshepang Lekhonkhobe",
+            "username": "tshepang"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8dfd807a238123909648680b69aeacb97e40c786",
+          "message": "set MSRV (to 1.53), and test on macOS and Windows (#195)\n\nAlso, run UI test only on a single compiler version,\r\nbecause rustc error messages tend to vary between releases.\r\n\r\nCloses #191",
+          "timestamp": "2021-08-02T17:51:35-07:00",
+          "tree_id": "ff85d0e6573fc95dee4e603c9edb6bc13ddf1e10",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/8dfd807a238123909648680b69aeacb97e40c786"
+        },
+        "date": 1627952145006,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 44051,
+            "range": "± 484",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 605558,
+            "range": "± 7860",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 17524,
+            "range": "± 158",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 30392,
+            "range": "± 327",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1815,
+            "range": "± 101",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 44779,
+            "range": "± 607",
             "unit": "ns/iter"
           }
         ]
