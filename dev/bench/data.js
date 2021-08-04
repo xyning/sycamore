@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1627952145564,
+  "lastUpdate": 1628118051854,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -6011,6 +6011,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 44779,
             "range": "± 607",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8d4f383bd5caf8577f098d0c817f8ee7d6dcdf35",
+          "message": "Remove inline JS snippet (#194)\n\n* NodeWithId\r\n\r\n* Remove setup chrome driver from bench workflow\r\n\r\n* Remove install wasm-bindgen\r\n\r\n* Update js-framework-benchmark workflow search and replace\r\n\r\n* Install chromedriver\r\n\r\n* Fix syntax error",
+          "timestamp": "2021-08-04T15:57:20-07:00",
+          "tree_id": "ae794b39d99d65a544350c3d15198146478aff6b",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/8d4f383bd5caf8577f098d0c817f8ee7d6dcdf35"
+        },
+        "date": 1628118051350,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 37038,
+            "range": "± 176",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 507478,
+            "range": "± 2807",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 13042,
+            "range": "± 57",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 22784,
+            "range": "± 43",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1441,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 33571,
+            "range": "± 44",
             "unit": "ns/iter"
           }
         ]
