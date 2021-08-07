@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1628305022119,
+  "lastUpdate": 1628368239965,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -6251,6 +6251,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 32122,
             "range": "± 525",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alex@x37v.info",
+            "name": "Alex Norman",
+            "username": "x37v"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fc8d00a07de5d8a2d3c6bd6e111f1ef40e46a3ff",
+          "message": "fix broken link to reactivity doc on main page (#203)\n\nwas going to: `https://sycamore-rs.netlify.app/basics/reactivity` with a `404`",
+          "timestamp": "2021-08-07T13:23:28-07:00",
+          "tree_id": "230166449f2eb9bfc441abb63c01685b84ec0e2f",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/fc8d00a07de5d8a2d3c6bd6e111f1ef40e46a3ff"
+        },
+        "date": 1628368238793,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 43909,
+            "range": "± 1308",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 580402,
+            "range": "± 14669",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 17374,
+            "range": "± 522",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 29966,
+            "range": "± 1087",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1849,
+            "range": "± 55",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 42438,
+            "range": "± 2875",
             "unit": "ns/iter"
           }
         ]
