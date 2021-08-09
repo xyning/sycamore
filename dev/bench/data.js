@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1628469610812,
+  "lastUpdate": 1628547355361,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -6371,6 +6371,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 47190,
             "range": "± 50",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yoshanuikabundi@gmail.com",
+            "name": "Josh A. Mitchell",
+            "username": "Yoshanuikabundi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "422ddec64e4fb62114cfd38c2605f88ae536b36d",
+          "message": "Explain that Trunk needs a HTML source file (#206)\n\nHi! Just exploring Sycamore (looks cool so far) and ran into trouble running the hello world example, which doesn't describe creating index.html, which Trunk needs. Following the current instructions gives an error:\r\n\r\n```shell\r\n$ trunk serve                        \r\nError: error getting canonical path to source HTML file \"index.html\"\r\n\r\nCaused by:\r\n    No such file or directory (os error 2)\r\n```\r\n\r\nSo I thought I'd fix that :)\r\n\r\nThe page in question also previously said:\r\n\r\n> In fact, the Hello World program in Sycamore is but slightly longer than the console version!\r\n\r\nBut the console version is not described. So I've removed this sentence.\r\n\r\nFinally, the description of the sycamore repo on Github is\r\n\r\n> A reactive DOM library for Rust in WASM \r\n\r\nI only mention this in case you wanted to update it to \"Sycamore is a modern VDOM-less web library with fine-grained reactivity in Rust and WebAssembly.\" to match the readme.\r\n\r\nThanks!",
+          "timestamp": "2021-08-09T15:12:25-07:00",
+          "tree_id": "4f83fe3cfd08b259eca473f1e0777e934b3e3e8d",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/422ddec64e4fb62114cfd38c2605f88ae536b36d"
+        },
+        "date": 1628547354820,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35912,
+            "range": "± 210",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 421923,
+            "range": "± 1489",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 12095,
+            "range": "± 11",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 23502,
+            "range": "± 36",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1419,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 34007,
+            "range": "± 61",
             "unit": "ns/iter"
           }
         ]
