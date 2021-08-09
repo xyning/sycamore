@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1628368239965,
+  "lastUpdate": 1628469610812,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -6311,6 +6311,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 42438,
             "range": "± 2875",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0eb84ca5d0b05bdd533fedcb397e5e8ef10c3660",
+          "message": "Extract reactive primitives into new crate (#204)\n\n* Extract reactive primitives into new crate\r\n\r\n* Fix tests\r\n\r\n* Prevent duplicate CI runs\r\n\r\n* Rename Running to Listener\r\n\r\n* Unsubscribe and subscirbe to diff\r\n\r\n* Add some inline attributes\r\n\r\n* Remove create_effect_initial\r\n\r\n* Fix error",
+          "timestamp": "2021-08-08T17:36:05-07:00",
+          "tree_id": "e3e348a9fd98d2bc8c556104ad1ac674382237c6",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/0eb84ca5d0b05bdd533fedcb397e5e8ef10c3660"
+        },
+        "date": 1628469610225,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 50773,
+            "range": "± 302",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 595599,
+            "range": "± 3105",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 17026,
+            "range": "± 18",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 29725,
+            "range": "± 36",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1851,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 47190,
+            "range": "± 50",
             "unit": "ns/iter"
           }
         ]
