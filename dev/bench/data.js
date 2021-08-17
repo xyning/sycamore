@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1628551923909,
+  "lastUpdate": 1629170642432,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -6551,6 +6551,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 45311,
             "range": "± 324",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "37baa2e477e7d9ca892093d449d4584930c65aa2",
+          "message": "Implement Portals (#209)\n\n* Implement portal\r\n\r\n* Add tests for portals\r\n\r\n* Tweak website\r\n\r\n* Update trunk to v0.13.1",
+          "timestamp": "2021-08-17T03:20:40Z",
+          "tree_id": "371f3df0e4cdb6fd245970d88afbb1efad8136e8",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/37baa2e477e7d9ca892093d449d4584930c65aa2"
+        },
+        "date": 1629170640731,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 36249,
+            "range": "± 528",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 422455,
+            "range": "± 4780",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 12073,
+            "range": "± 174",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 20894,
+            "range": "± 197",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1383,
+            "range": "± 19",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 33502,
+            "range": "± 68",
             "unit": "ns/iter"
           }
         ]
