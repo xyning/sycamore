@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1629399379609,
+  "lastUpdate": 1629511689441,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -6911,6 +6911,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 38300,
             "range": "± 46",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "47828443081cd412532b87cf85c7ee21ea709839",
+          "message": "Allow creating components with the `Component` trait (#213)\n\n* Add Component::__create_component\r\n\r\n* Higher order components\r\n\r\n* Create type alias\r\n\r\n* Import trait Component as an alias to prevent name shadowing",
+          "timestamp": "2021-08-21T02:03:34Z",
+          "tree_id": "d8299e04193a869fcf67cb37317aefceb7a31333",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/47828443081cd412532b87cf85c7ee21ea709839"
+        },
+        "date": 1629511688320,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 48277,
+            "range": "± 2867",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 565778,
+            "range": "± 36356",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 16101,
+            "range": "± 671",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 26578,
+            "range": "± 2470",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1713,
+            "range": "± 59",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 41218,
+            "range": "± 2032",
             "unit": "ns/iter"
           }
         ]
