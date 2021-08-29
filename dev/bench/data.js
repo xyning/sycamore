@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1630201652936,
+  "lastUpdate": 1630206474740,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -7031,6 +7031,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 39399,
             "range": "± 49",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a5e05f6d39116298efc0336bcdd4a48b184858b2",
+          "message": "Optimize create_effect (#216)\n\n* Only call .borrow_mut() once\r\n\r\n* Change effect callback from dyn FnMut to dyn Fn to remove RefCell\r\n\r\n* Revert \"Change effect callback from dyn FnMut to dyn Fn to remove RefCell\"\r\n\r\nThis reverts commit 103dd17a3b3aae8d91e63795f7e886ae184e2563.",
+          "timestamp": "2021-08-28T20:04:01-07:00",
+          "tree_id": "4d3c514c1f912b94d378fb30de63d48f1157db92",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/a5e05f6d39116298efc0336bcdd4a48b184858b2"
+        },
+        "date": 1630206474215,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 43396,
+            "range": "± 2580",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 473445,
+            "range": "± 30720",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 13819,
+            "range": "± 782",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 24405,
+            "range": "± 1472",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1491,
+            "range": "± 75",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 37664,
+            "range": "± 1530",
             "unit": "ns/iter"
           }
         ]
