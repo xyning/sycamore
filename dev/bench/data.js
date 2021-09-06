@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1630958272334,
+  "lastUpdate": 1630958432867,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -7511,6 +7511,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 66988,
             "range": "± 1903",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f7ede69481852644db7735a469c875c63f9dbb8c",
+          "message": "Router refactor (#222)\n\n* Fix router base_pathname\r\n\r\n* Remove Default bound from parsing traits\r\n\r\n* fmt Cargo.toml\r\n\r\n* Pass a StateHandle instead of Route\r\n\r\n* Remove preloads from website\r\n\r\n* Remove preloads\r\n\r\n* Remove unused dependencies\r\n\r\n* Fix UI tests\r\n\r\n* Update fixtures\r\n\r\n* Update routing docs\r\n\r\n* Update docs on router data fetching\r\n\r\n* Fix typo\r\n\r\n* Fix docs",
+          "timestamp": "2021-09-06T12:19:01-07:00",
+          "tree_id": "52987340df5c79b95be2ca78f6b439bb48cf110d",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/f7ede69481852644db7735a469c875c63f9dbb8c"
+        },
+        "date": 1630958431740,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 40781,
+            "range": "± 167",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 467521,
+            "range": "± 1631",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 13739,
+            "range": "± 25",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 23567,
+            "range": "± 98",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1269,
+            "range": "± 11",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 54096,
+            "range": "± 51",
             "unit": "ns/iter"
           }
         ]
