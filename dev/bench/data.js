@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1630962345316,
+  "lastUpdate": 1630989022858,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -7691,6 +7691,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 61150,
             "range": "± 1976",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e9f752713ffb5e845bf55fdc42a9867a9fd5bac2",
+          "message": "Website dark mode (#225)\n\n* npm update\r\n\r\n* Dark mode\r\n\r\n* Dark mode toggle\r\n\r\n* Get dark mode from media query\r\n\r\n* Tweak dark mode styles\r\n\r\n* Minify TailwindCSS",
+          "timestamp": "2021-09-07T04:26:23Z",
+          "tree_id": "ae2cb2353c41b9bc3bf5aacac34d2ee2860c0d29",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/e9f752713ffb5e845bf55fdc42a9867a9fd5bac2"
+        },
+        "date": 1630989022266,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 46101,
+            "range": "± 685",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 596921,
+            "range": "± 7324",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 23703,
+            "range": "± 584",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 38982,
+            "range": "± 690",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1674,
+            "range": "± 22",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 68127,
+            "range": "± 1024",
             "unit": "ns/iter"
           }
         ]
