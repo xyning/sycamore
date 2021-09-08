@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1630989022858,
+  "lastUpdate": 1631072188630,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -7751,6 +7751,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 68127,
             "range": "± 1024",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fc640d313e66f9a6af422fae44f4f72fa86280cc",
+          "message": "Use unwrap_throw instead of unwrap (#226)\n\n* Use unwrap_throw in dom_node.rs\r\n\r\n* Update .gitpod.yml\r\n\r\n* Transition colors on header\r\n\r\n* Use more unwrap_throws",
+          "timestamp": "2021-09-07T20:32:25-07:00",
+          "tree_id": "2a328817af23e0ff30c83564bf8ca4d94020bead",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/fc640d313e66f9a6af422fae44f4f72fa86280cc"
+        },
+        "date": 1631072188051,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 44249,
+            "range": "± 1671",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 579936,
+            "range": "± 14779",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 22352,
+            "range": "± 768",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 36441,
+            "range": "± 1575",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1559,
+            "range": "± 47",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 65082,
+            "range": "± 1959",
             "unit": "ns/iter"
           }
         ]
