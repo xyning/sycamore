@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631382929706,
+  "lastUpdate": 1631387966908,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -8231,6 +8231,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 70328,
             "range": "± 183",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d0123e55ec4e7ba7338b9cfe59efdbd202ae555d",
+          "message": "Fix router parser not parsing identifiers (#234)\n\n* Fix router parser not parsing identifiers\r\n\r\n* Update trybuild",
+          "timestamp": "2021-09-11T12:14:56-07:00",
+          "tree_id": "4812b3f79772d38ff2dda225893391454e61875e",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/d0123e55ec4e7ba7338b9cfe59efdbd202ae555d"
+        },
+        "date": 1631387966322,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 46418,
+            "range": "± 1294",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 613199,
+            "range": "± 22499",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 23605,
+            "range": "± 884",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 41183,
+            "range": "± 1173",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1697,
+            "range": "± 85",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 69562,
+            "range": "± 2141",
             "unit": "ns/iter"
           }
         ]
