@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631163367600,
+  "lastUpdate": 1631331752078,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -8051,6 +8051,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 59603,
             "range": "± 137",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "arctic_hen7@pm.me",
+            "name": "arctic_hen7",
+            "username": "arctic-hen7"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a394a69ae81e8a54bf79d2b611ca5cc7fd6a2ee4",
+          "message": "fix: 🐛 derived `Clone` for router types (#232)\n\nSpecifically `Segment`, `RoutePath`, and `Capture`.\r\n\r\nCo-authored-by: Luke Chu <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2021-09-10T20:38:48-07:00",
+          "tree_id": "2fa661f8d664af3ba64efe1b2ec65fc13e2d782c",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/a394a69ae81e8a54bf79d2b611ca5cc7fd6a2ee4"
+        },
+        "date": 1631331751553,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 38943,
+            "range": "± 2593",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 460987,
+            "range": "± 17653",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 19207,
+            "range": "± 897",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 30881,
+            "range": "± 1720",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1299,
+            "range": "± 79",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 56746,
+            "range": "± 2895",
             "unit": "ns/iter"
           }
         ]
