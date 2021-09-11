@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631387966908,
+  "lastUpdate": 1631392215776,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -8291,6 +8291,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 69562,
             "range": "± 2141",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "73f09e82527bad175d7cc8722d356fff74df2823",
+          "message": "Build rustdoc in CI (#235)\n\n* Build rustdoc in CI\r\n\r\n* Fix context example title\r\n\r\n* Build rustdoc under api/ directory\r\n\r\n* Fix redirect\r\n\r\n* Add link for master rustdoc",
+          "timestamp": "2021-09-11T13:26:18-07:00",
+          "tree_id": "c7a49f31422327d748dcd0a2657b5fb2e8784b39",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/73f09e82527bad175d7cc8722d356fff74df2823"
+        },
+        "date": 1631392215241,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 41049,
+            "range": "± 2400",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 519768,
+            "range": "± 28774",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 20789,
+            "range": "± 1227",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 34829,
+            "range": "± 1968",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1454,
+            "range": "± 64",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 60615,
+            "range": "± 3274",
             "unit": "ns/iter"
           }
         ]
