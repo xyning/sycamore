@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631413640334,
+  "lastUpdate": 1631417230168,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -8531,6 +8531,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 62853,
             "range": "± 1711",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5075b3fbb1fab651a4e1270aef3296872e3b0a8d",
+          "message": "Support boolean attributes (#239)\n\n* Codegen boolean attributes\r\n\r\n* Update set of boolean attributes\r\n\r\n* Fix FIXME in todomvc example",
+          "timestamp": "2021-09-11T20:23:06-07:00",
+          "tree_id": "476137de32cd92645682ed4f9355d88b48df764e",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/5075b3fbb1fab651a4e1270aef3296872e3b0a8d"
+        },
+        "date": 1631417229002,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 40541,
+            "range": "± 251",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 496592,
+            "range": "± 2617",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 20605,
+            "range": "± 26",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 33746,
+            "range": "± 43",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1578,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 64049,
+            "range": "± 193",
             "unit": "ns/iter"
           }
         ]
