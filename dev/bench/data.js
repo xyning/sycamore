@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631493786658,
+  "lastUpdate": 1631593005127,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -8951,6 +8951,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 68009,
             "range": "± 1377",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lukewchu@outlook.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "lukewchu@outlook.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "809a2a7741dd73ddb25a9cd91158c20d8fd0e3b1",
+          "message": "Fix .gitpod.yml init task",
+          "timestamp": "2021-09-14T04:12:26Z",
+          "tree_id": "baa42fb63f01689ac68a9fcbe63d956cd0b0e689",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/809a2a7741dd73ddb25a9cd91158c20d8fd0e3b1"
+        },
+        "date": 1631593003496,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 48813,
+            "range": "± 1189",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 604745,
+            "range": "± 7438",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 23483,
+            "range": "± 569",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 39887,
+            "range": "± 633",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1673,
+            "range": "± 35",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 71063,
+            "range": "± 1099",
             "unit": "ns/iter"
           }
         ]
