@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631991365077,
+  "lastUpdate": 1631995388729,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -9251,6 +9251,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 72998,
             "range": "± 7343",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8328101389c9518a58cce75ea245e5a0ee27b0b7",
+          "message": "Remove formatting machinery (#247)\n\n* Remove usages of unwrap() from sycamore-router\r\n\r\n* Remove expect from packages/sycamore\r\n\r\n* Remove formatting from sycamore-reactive\r\n\r\n* Use lexical for i32\r\n\r\n* Format numbers with lexical\r\n\r\n* Specialize IntoTemplate for different strings and string slices\r\n\r\n* Implement IntoTemplate for &Template",
+          "timestamp": "2021-09-18T12:59:22-07:00",
+          "tree_id": "e5e7d5f6d32a2fdb7049639fbc90a1e907e8595a",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/8328101389c9518a58cce75ea245e5a0ee27b0b7"
+        },
+        "date": 1631995387376,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 39520,
+            "range": "± 152",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 566754,
+            "range": "± 2461",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 25158,
+            "range": "± 84",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 39969,
+            "range": "± 53",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1418,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 59607,
+            "range": "± 218",
             "unit": "ns/iter"
           }
         ]
