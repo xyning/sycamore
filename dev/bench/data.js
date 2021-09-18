@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631810322352,
+  "lastUpdate": 1631991365077,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -9191,6 +9191,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 68442,
             "range": "± 109",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "redian@users.noreply.github.com",
+            "name": "Redian Ibra",
+            "username": "redian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f59b7fb5ac09b079eb0b0817094af5d2c5f1cd9e",
+          "message": "Update docs to use boolean for disabled attribute on button (#248)\n\n* Update docs to use boolean for disabled attribute on button\r\n\r\n* Do not modify docs for v0.5\r\n\r\nCo-authored-by: Luke Chu <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2021-09-18T11:51:52-07:00",
+          "tree_id": "5b313973ca83a978951cda424715d1a5b099e382",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/f59b7fb5ac09b079eb0b0817094af5d2c5f1cd9e"
+        },
+        "date": 1631991364264,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 48351,
+            "range": "± 1308",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 602609,
+            "range": "± 18940",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 24430,
+            "range": "± 773",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 41193,
+            "range": "± 3355",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1857,
+            "range": "± 83",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 72998,
+            "range": "± 7343",
             "unit": "ns/iter"
           }
         ]
