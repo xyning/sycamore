@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632011284741,
+  "lastUpdate": 1632069045424,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -9431,6 +9431,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 56208,
             "range": "± 4195",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "arctic_hen7@pm.me",
+            "name": "arctic_hen7",
+            "username": "arctic-hen7"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6846726edcfad8cc42bcac539082a7f5a608d570",
+          "message": "Added docs on topological dependency tracking (#253)\n\n* docs: 📝 added docs on topological dependency tracking\r\n\r\n* Update docs/versioned_docs/v0.6/basics/reactivity.md\r\n\r\nCo-authored-by: Luke Chu <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2021-09-19T09:24:41-07:00",
+          "tree_id": "1eb3d8a315f063b8895ef87d0ee6e20eea938858",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/6846726edcfad8cc42bcac539082a7f5a608d570"
+        },
+        "date": 1632069044135,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 39217,
+            "range": "± 183",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 568859,
+            "range": "± 3125",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 24683,
+            "range": "± 39",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 39459,
+            "range": "± 55",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1461,
+            "range": "± 14",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 60168,
+            "range": "± 113",
             "unit": "ns/iter"
           }
         ]
