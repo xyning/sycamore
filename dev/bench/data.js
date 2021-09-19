@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631996615501,
+  "lastUpdate": 1632011284741,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -9371,6 +9371,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 58760,
             "range": "± 3605",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "82ef5f025e5ac65245fd246e83e8f5dc8534f114",
+          "message": "Remove trailing ``` characters in README.md\n\nDon't know why it's there in the first place 😆",
+          "timestamp": "2021-09-18T17:24:13-07:00",
+          "tree_id": "74b5fc26bd9111151c3187d35916b2920d9fec47",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/82ef5f025e5ac65245fd246e83e8f5dc8534f114"
+        },
+        "date": 1632011284160,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 43823,
+            "range": "± 3261",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 537614,
+            "range": "± 30678",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 23525,
+            "range": "± 1361",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 39066,
+            "range": "± 3027",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1485,
+            "range": "± 112",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 56208,
+            "range": "± 4195",
             "unit": "ns/iter"
           }
         ]
