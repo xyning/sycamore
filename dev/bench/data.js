@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632089200426,
+  "lastUpdate": 1632107880466,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -9551,6 +9551,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 69362,
             "range": "± 1156",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3416e295e1391463e80897878358adbf9b735cc5",
+          "message": "Add Perseus and other alternatives to README.md\n\nhttps://github.com/yewstack/yew/pull/2066",
+          "timestamp": "2021-09-19T20:13:43-07:00",
+          "tree_id": "f551dbfd8b09021eb29cf2812d26f141d3f5f1db",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/3416e295e1391463e80897878358adbf9b735cc5"
+        },
+        "date": 1632107879801,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 46916,
+            "range": "± 225",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 676046,
+            "range": "± 2745",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 29230,
+            "range": "± 554",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 46475,
+            "range": "± 116",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1752,
+            "range": "± 6",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 70519,
+            "range": "± 124",
             "unit": "ns/iter"
           }
         ]
