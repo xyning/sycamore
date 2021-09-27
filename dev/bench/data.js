@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632596935081,
+  "lastUpdate": 1632701632898,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -9791,6 +9791,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 70527,
             "range": "± 6633",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "54370171+jquesada2016@users.noreply.github.com",
+            "name": "jquesada2016",
+            "username": "jquesada2016"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ca21aba027af442114549dd98002ac7f07221281",
+          "message": "Add `GenericNode::remove_property` method (#267)\n\nThis is useful to have, especially for some serializers which require certain properties to not exist, not just be `undefined`.",
+          "timestamp": "2021-09-26T17:10:24-07:00",
+          "tree_id": "64f58e006269cfd0acf55b714e40afeb5c649c5d",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/ca21aba027af442114549dd98002ac7f07221281"
+        },
+        "date": 1632701631711,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 35112,
+            "range": "± 140",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 499620,
+            "range": "± 2916",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 21725,
+            "range": "± 30",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 34093,
+            "range": "± 158",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1284,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 52003,
+            "range": "± 122",
             "unit": "ns/iter"
           }
         ]
