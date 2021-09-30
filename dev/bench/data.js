@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1632701632898,
+  "lastUpdate": 1633041401233,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -9851,6 +9851,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 52003,
             "range": "± 122",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "54370171+jquesada2016@users.noreply.github.com",
+            "name": "jquesada2016",
+            "username": "jquesada2016"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "99a3ff0fc4d6499276748277f87e1ddadd5b067f",
+          "message": "Added node! convenience macro (#265)\n\n* added node! convenience macro\r\n\r\n* Apply suggested changes\r\n\r\nCo-authored-by: Luke Chu <lukewchu@outlook.com>",
+          "timestamp": "2021-09-30T15:32:54-07:00",
+          "tree_id": "8b019eed478f3e4c36f0d2da6ca61a0b5b32b088",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/99a3ff0fc4d6499276748277f87e1ddadd5b067f"
+        },
+        "date": 1633041400515,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 39153,
+            "range": "± 365",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 566980,
+            "range": "± 3014",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 24449,
+            "range": "± 10",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 38747,
+            "range": "± 45",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1463,
+            "range": "± 8",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 59685,
+            "range": "± 132",
             "unit": "ns/iter"
           }
         ]
