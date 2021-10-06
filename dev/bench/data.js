@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633412867850,
+  "lastUpdate": 1633494433889,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -9971,6 +9971,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 58768,
             "range": "± 1763",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d94f0a4466418fccb4c3584ebc2c00a9a4cbed4",
+          "message": "Fix Perseus link README.md",
+          "timestamp": "2021-10-05T21:23:24-07:00",
+          "tree_id": "16e9844a79ab88705571af88bca57874487697a1",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/0d94f0a4466418fccb4c3584ebc2c00a9a4cbed4"
+        },
+        "date": 1633494433244,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 38807,
+            "range": "± 134",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 562457,
+            "range": "± 2707",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 24227,
+            "range": "± 70",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 38427,
+            "range": "± 40",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1355,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 58887,
+            "range": "± 85",
             "unit": "ns/iter"
           }
         ]
