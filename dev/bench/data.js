@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633752533585,
+  "lastUpdate": 1633808478763,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -10331,6 +10331,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 69650,
             "range": "± 3327",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7487a221a1157e22b7737736f869359d044dd118",
+          "message": "Remove period after SolidJS slogan in",
+          "timestamp": "2021-10-09T12:37:40-07:00",
+          "tree_id": "2fe268c407fc1a4238af70cafbae4de40f09725f",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/7487a221a1157e22b7737736f869359d044dd118"
+        },
+        "date": 1633808477401,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 38766,
+            "range": "± 167",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 566267,
+            "range": "± 2977",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 24302,
+            "range": "± 27",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 38350,
+            "range": "± 48",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1491,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 64149,
+            "range": "± 152",
             "unit": "ns/iter"
           }
         ]
