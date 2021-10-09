@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633673015814,
+  "lastUpdate": 1633752533585,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -10271,6 +10271,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 74928,
             "range": "± 6219",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "30574112+danielalvsaaker@users.noreply.github.com",
+            "name": "danielalvsaaker",
+            "username": "danielalvsaaker"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b0f0b1cd84206e3097eaff96eb1229528bea528",
+          "message": "Do not strip leading `/` from pathname (#271)\n\n* Remove prefix strip\r\n\r\n* Remove prefix strip for navigate function\r\n\r\n* Rename variable\r\n\r\n* Do not strip initial `/` from path\r\n\r\n* Appease clippy\r\n\r\nCo-authored-by: Luke Chu <37006668+lukechu10@users.noreply.github.com>\r\nCo-authored-by: Luke Chu <lukewchu@outlook.com>",
+          "timestamp": "2021-10-09T04:04:37Z",
+          "tree_id": "96f8c5467fade4913a88ad9fdda95c7ce41132db",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/2b0f0b1cd84206e3097eaff96eb1229528bea528"
+        },
+        "date": 1633752532889,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 45794,
+            "range": "± 2075",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 668440,
+            "range": "± 32157",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 27585,
+            "range": "± 1326",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 41750,
+            "range": "± 2261",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1549,
+            "range": "± 230",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 69650,
+            "range": "± 3327",
             "unit": "ns/iter"
           }
         ]
