@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634268597568,
+  "lastUpdate": 1634272341203,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -10751,6 +10751,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 60160,
             "range": "± 109",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2c8eb9c5b3e7e88a257a5f9ee8286e72d54dedad",
+          "message": "Extend `ReactiveScope` into scopes that are siblings (#280)\n\n* Add ReactiveScope::extend\r\n\r\n* spawn_local_in_scope\r\n\r\n* Update documentation\r\n\r\n* Fix doc test\r\n\r\n* Run more tests in Miri\r\n\r\n* Do not test router in miri\r\n\r\n* Fix doc test again",
+          "timestamp": "2021-10-14T21:28:50-07:00",
+          "tree_id": "6791e7aaf51530956f37fcdf276ebd9768112356",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/2c8eb9c5b3e7e88a257a5f9ee8286e72d54dedad"
+        },
+        "date": 1634272339997,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 38261,
+            "range": "± 275",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 570033,
+            "range": "± 6762",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 24849,
+            "range": "± 75",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 38543,
+            "range": "± 188",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1406,
+            "range": "± 6",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 59490,
+            "range": "± 93",
             "unit": "ns/iter"
           }
         ]
