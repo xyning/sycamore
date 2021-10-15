@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1633883946101,
+  "lastUpdate": 1634268597568,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -10691,6 +10691,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 59535,
             "range": "± 174",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "z@zoey.dev",
+            "name": "Zoey",
+            "username": "Zoeycode"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "21509aa6c8944cd0ddb113708c6eeb9cb1bd2907",
+          "message": "Prevent binding from panicking when not in wasm (#278)\n\n* Prevent binding from panicking when not in wasm\r\n\r\n* Fix cfg attributes",
+          "timestamp": "2021-10-14T20:26:11-07:00",
+          "tree_id": "e83f7d002b130781e3a5539c0b92f4996a48d665",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/21509aa6c8944cd0ddb113708c6eeb9cb1bd2907"
+        },
+        "date": 1634268596363,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 39496,
+            "range": "± 260",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 565283,
+            "range": "± 3250",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 24709,
+            "range": "± 27",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 38679,
+            "range": "± 62",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1427,
+            "range": "± 15",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 60160,
+            "range": "± 109",
             "unit": "ns/iter"
           }
         ]
