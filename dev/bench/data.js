@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634275797883,
+  "lastUpdate": 1634513961133,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -10871,6 +10871,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 59442,
             "range": "± 92",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49726028+karx1@users.noreply.github.com",
+            "name": "Yash Karandikar",
+            "username": "karx1"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0a3d39f422fb48828a9f48bd542f7cce7c0a9dad",
+          "message": "Add a solution for CSS in the docs (#286)",
+          "timestamp": "2021-10-17T23:35:45Z",
+          "tree_id": "8914f474ead79437cfec333b6eed5be5e2567106",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/0a3d39f422fb48828a9f48bd542f7cce7c0a9dad"
+        },
+        "date": 1634513959753,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 39512,
+            "range": "± 104",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 573420,
+            "range": "± 2437",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 25065,
+            "range": "± 37",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 38953,
+            "range": "± 57",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1393,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 58916,
+            "range": "± 71",
             "unit": "ns/iter"
           }
         ]
