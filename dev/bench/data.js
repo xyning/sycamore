@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634659793179,
+  "lastUpdate": 1635041696413,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -10991,6 +10991,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 59171,
             "range": "± 144",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "colin@colinyates.co.uk",
+            "name": "Colin Yates",
+            "username": "yatesco"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "59ed9743be33c328e084a937c645bfdad1c1124a",
+          "message": "Update typo in README.md (#287)",
+          "timestamp": "2021-10-24T02:11:14Z",
+          "tree_id": "181c4a31c699444fbadc9ccffa724c567e399b0e",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/59ed9743be33c328e084a937c645bfdad1c1124a"
+        },
+        "date": 1635041695150,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 39400,
+            "range": "± 81",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 551826,
+            "range": "± 2950",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 24198,
+            "range": "± 55",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 38613,
+            "range": "± 38",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1364,
+            "range": "± 5",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 58235,
+            "range": "± 108",
             "unit": "ns/iter"
           }
         ]
