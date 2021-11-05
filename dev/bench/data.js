@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1636088468603,
+  "lastUpdate": 1636092779111,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -11231,6 +11231,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 58584,
             "range": "± 159",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f23012751f95de5aee3e728be019e32e3e24af1f",
+          "message": "Collect code coverage in CI (#294)\n\n* Add code coverage\r\n\r\n* Add some tests for context not found for type\r\n\r\n* Add some tests for ssr\r\n\r\n* Add some tests for NodeRef\r\n\r\n* Add tests for easing functions",
+          "timestamp": "2021-11-04T23:09:19-07:00",
+          "tree_id": "e7a15a4b7911b9b0290ee900824b6ed48ef53ad1",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/f23012751f95de5aee3e728be019e32e3e24af1f"
+        },
+        "date": 1636092777650,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 40932,
+            "range": "± 210",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 556758,
+            "range": "± 5717",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 25735,
+            "range": "± 84",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 39316,
+            "range": "± 42",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1404,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 59189,
+            "range": "± 118",
             "unit": "ns/iter"
           }
         ]
