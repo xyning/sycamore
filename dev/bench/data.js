@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635138288079,
+  "lastUpdate": 1636085335567,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -11111,6 +11111,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 58459,
             "range": "± 35558",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "54370171+jquesada2016@users.noreply.github.com",
+            "name": "jquesada2016",
+            "username": "jquesada2016"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "924ed0c028348ffe35a8ff5e97f6c9f387d63f18",
+          "message": "Builder API (#269)\n\n* added node! convenience macro\r\n\r\n* added add_class and remove_class to\r\n\r\n* changed name from value to class\r\n\r\n* initial implementation of render-agnostic builder API\r\n\r\n* converted from self to &self\r\n\r\n* implemented add_dyn_child and add_dyn_only_child\r\n\r\n* added add_dyn_text\r\n\r\n* added all currently supported HTML tags\r\n\r\n* fixed type error when compiling with ssr\r\n\r\n* added top level component fn and ability to add child components\r\n\r\n* renamed all functions to be more declarative and concise\r\n\r\n* renamed add_dyn_class to dyn_class\r\n\r\n* added bool_attr and dyn_bool_attr\r\n\r\n* added fragment fn\r\n\r\n* fixed clippy warnings\r\n\r\n* fixed use of unstable feature, intersperse_with, and removed unneeded mut\r\n\r\n* gated builder mod behind feature flag\r\n\r\n* fully documented current iteration of the Builder API\r\n\r\n* Apply suggested changes\r\n\r\n* added #[allow(dead_code)] to unimplemented functions\r\n\r\n* Update packages/sycamore/src/generic_node/ssr_node.rs\r\n\r\n* Update packages/sycamore/src/builder/agnostic/mod.rs\r\n\r\n* Apply suggestions from review\r\n\r\n* Fix clippy\r\n\r\n* Add an example for builder API hello world\r\n\r\nCo-authored-by: Luke Chu <lukewchu@outlook.com>\r\nCo-authored-by: Luke Chu <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2021-11-04T21:05:21-07:00",
+          "tree_id": "876036d9d0d6de012ea42a1aa146e21b663c1a63",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/924ed0c028348ffe35a8ff5e97f6c9f387d63f18"
+        },
+        "date": 1636085334212,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 39873,
+            "range": "± 55",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 573044,
+            "range": "± 2534",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 24412,
+            "range": "± 240",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 38139,
+            "range": "± 58",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1411,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 59454,
+            "range": "± 108",
             "unit": "ns/iter"
           }
         ]
