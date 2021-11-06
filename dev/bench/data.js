@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1636228221802,
+  "lastUpdate": 1636229299557,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -11711,6 +11711,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 52378,
             "range": "± 163",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f444a5faab212574a18b46d8333d44754b5f2f62",
+          "message": "Make `GenericNode` generic over the event type (#297)\n\n* Make GenericNode generic over the event type\r\n\r\n* Fix doctests",
+          "timestamp": "2021-11-06T13:04:46-07:00",
+          "tree_id": "17ff60c81f3b2e213d1e9ee18ccb6929f7b6e881",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/f444a5faab212574a18b46d8333d44754b5f2f62"
+        },
+        "date": 1636229298153,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 41961,
+            "range": "± 283",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 554708,
+            "range": "± 3050",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 26511,
+            "range": "± 55",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 40019,
+            "range": "± 43",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1424,
+            "range": "± 9",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 58833,
+            "range": "± 167",
             "unit": "ns/iter"
           }
         ]
