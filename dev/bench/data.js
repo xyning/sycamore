@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1636223966634,
+  "lastUpdate": 1636226366236,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -11471,6 +11471,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 69294,
             "range": "± 219",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "865bea0a0f55b2882fa42b7b5403ad2c5c51b8f9",
+          "message": "Add `IS_BROWSER` constant to `GenericNode` (#274)\n\n* Add a IS_BROWSER consant to GenericNode\r\n\r\n* Add `Html` trait\r\n\r\n* Fix conditional compilation\r\n\r\n* Fix ui tests\r\n\r\n* Move IS_BROWSER constant to Html trait\r\n\r\n* Fix doctests",
+          "timestamp": "2021-11-06T12:15:52-07:00",
+          "tree_id": "a470f9f0edd04292a8228034e88dec862be5a741",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/865bea0a0f55b2882fa42b7b5403ad2c5c51b8f9"
+        },
+        "date": 1636226364775,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 41607,
+            "range": "± 180",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 555089,
+            "range": "± 2330",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 25182,
+            "range": "± 36",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 39637,
+            "range": "± 45",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1406,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 58821,
+            "range": "± 101",
             "unit": "ns/iter"
           }
         ]
