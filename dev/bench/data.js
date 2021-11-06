@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1636092779111,
+  "lastUpdate": 1636223305939,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -11291,6 +11291,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 59189,
             "range": "± 118",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ryanhaywoodj@gmail.com",
+            "name": "Ryan Haywood",
+            "username": "haywoood"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d4c246992be48405295ca247dd7cd2bc9b3f24cf",
+          "message": "Update TodoMVC example to use Context API (#295)\n\nDoes what it says on the tin.\r\n\r\nCloses https://github.com/sycamore-rs/sycamore/issues/279",
+          "timestamp": "2021-11-06T11:24:48-07:00",
+          "tree_id": "ae30e717fd755e793591ba97634f6582db1ec5df",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/d4c246992be48405295ca247dd7cd2bc9b3f24cf"
+        },
+        "date": 1636223304590,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 41472,
+            "range": "± 189",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 557674,
+            "range": "± 2931",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 25121,
+            "range": "± 230",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 39946,
+            "range": "± 154",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1516,
+            "range": "± 14",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 60448,
+            "range": "± 133",
             "unit": "ns/iter"
           }
         ]
