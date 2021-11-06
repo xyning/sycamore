@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1636228100967,
+  "lastUpdate": 1636228221802,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -11651,6 +11651,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 64480,
             "range": "± 3518",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "d17e776a2e3f2d44ae99783ac70c67b5736c87d2",
+          "message": "Do not run CI tests on macos and windows\n\nWe can safely assume that chrome and firefox will behave the same regardless of the underlying os. Running the test suite on 3 different OSs is a waste of resources (wastes energy, CI resources and makes the CI queue longer)",
+          "timestamp": "2021-11-06T12:46:45-07:00",
+          "tree_id": "83edba7e4d49701b497b9b17ee3342165a7ff079",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/d17e776a2e3f2d44ae99783ac70c67b5736c87d2"
+        },
+        "date": 1636228221243,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 41877,
+            "range": "± 224",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 554594,
+            "range": "± 3633",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 25292,
+            "range": "± 17",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 34721,
+            "range": "± 34",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1401,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 52378,
+            "range": "± 163",
             "unit": "ns/iter"
           }
         ]
