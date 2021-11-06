@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1636226776041,
+  "lastUpdate": 1636228100967,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -11591,6 +11591,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 60069,
             "range": "± 4119",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe60fe046324ebac7052e97eab1bcaf79a578e42",
+          "message": "Make `wasm-bindgen-interning` a feature (#296)\n\n* Add module docs for futures\r\n\r\n* Make wasm-bindgen-interning a feature flag",
+          "timestamp": "2021-11-06T12:44:03-07:00",
+          "tree_id": "e72823195dfaeab628c8e84cfd4c1f6560526f40",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/fe60fe046324ebac7052e97eab1bcaf79a578e42"
+        },
+        "date": 1636228099669,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 44808,
+            "range": "± 2483",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 609746,
+            "range": "± 30921",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 26553,
+            "range": "± 1145",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 41382,
+            "range": "± 2200",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1555,
+            "range": "± 65",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 64480,
+            "range": "± 3518",
             "unit": "ns/iter"
           }
         ]
