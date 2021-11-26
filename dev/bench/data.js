@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637962568298,
+  "lastUpdate": 1637962787247,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -12371,6 +12371,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 99418,
             "range": "± 151",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "056841fb53da8b448c0855d829ff2e7197edb7f9",
+          "message": "Do not show experimental badge",
+          "timestamp": "2021-11-26T13:35:18-08:00",
+          "tree_id": "f5bc45007eec1cb8bdf17d5efff093c69bfcb615",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/056841fb53da8b448c0855d829ff2e7197edb7f9"
+        },
+        "date": 1637962786628,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 50687,
+            "range": "± 3021",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 696897,
+            "range": "± 29780",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 30289,
+            "range": "± 1388",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 48222,
+            "range": "± 2219",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2714,
+            "range": "± 216",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 108320,
+            "range": "± 4756",
             "unit": "ns/iter"
           }
         ]
