@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637701022465,
+  "lastUpdate": 1637948132470,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -12131,6 +12131,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 58019,
             "range": "± 161",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d10e0d4525557f2513cad58aed69bf308dfdf95e",
+          "message": "Hydrate (#240)\n\n* wip\r\n\r\n* Refactor component\r\n\r\n* Fix conditional compilation\r\n\r\n* Fix conditional compilation\r\n\r\n* Get next marker\r\n\r\n* HydrateNode\r\n\r\n* Implement HydrateNode\r\n\r\n* Hydration context\r\n\r\n* Generate hydration keys\r\n\r\n* Fix clippy\r\n\r\n* Do not reset parent node for hydrate\r\n\r\n* Enable USE_HYDRATION_CONTEXT\r\n\r\n* Fix panic\r\n\r\n* Do not append nodes when hydrating\r\n\r\n* Move hydrate into utils mod\r\n\r\n* wip\r\n\r\n* macro support for hydration\r\n\r\n* Add hydrate example\r\n\r\n* Make \"hydrate\" feature experimental\r\n\r\n* Fix gitpod prebuilds\r\n\r\n* Add hydrate tests\r\n\r\n* Fix wasm-pack test\r\n\r\n* Add some tests for hydration\r\n\r\n* Hydrate reactivity\r\n\r\n* Add hydrate with siblings test\r\n\r\n* Add GenericNode::marker_with_text\r\n\r\n* Remove redundant clones\r\n\r\n* Update SSR docs about hydration\r\n\r\n* Fix error handling in hydrate utils\r\n\r\n* Refactor sycamore-macro\r\n\r\n* Update expect test\r\n\r\n* Add hydration example\r\n\r\n* Fix logic error in get_next_marker\r\n\r\n* Fix hydrate bug not replacing at initial render\r\n\r\n* Fix hydration tests\r\n\r\n* Fix ssr test\r\n\r\n* Add dynamic template test\r\n\r\n* Allow clippy lint in proc-macro\r\n\r\n* Add hydrate_get_scope",
+          "timestamp": "2021-11-26T09:31:41-08:00",
+          "tree_id": "03a2f5e1eb47a88cb8f04e10ed74ef38608520d8",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/d10e0d4525557f2513cad58aed69bf308dfdf95e"
+        },
+        "date": 1637948131049,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 41456,
+            "range": "± 291",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 555926,
+            "range": "± 3165",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 25155,
+            "range": "± 24",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 39444,
+            "range": "± 40",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2752,
+            "range": "± 26",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 103731,
+            "range": "± 183",
             "unit": "ns/iter"
           }
         ]
