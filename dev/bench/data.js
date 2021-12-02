@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638338302224,
+  "lastUpdate": 1638421773975,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -12970,6 +12970,66 @@ window.BENCHMARK_DATA = {
           {
             "name": "ssr_medium",
             "value": 84089,
+            "range": "± 80",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "distinct": true,
+          "id": "c45b713446c92f806933a8156a3d4fd35dff04b9",
+          "message": "Use Trunk hooks to build tailwindcss",
+          "timestamp": "2021-12-01T21:05:35-08:00",
+          "tree_id": "44b07e88517e5ead143410b7b4b0390683fd2728",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/c45b713446c92f806933a8156a3d4fd35dff04b9"
+        },
+        "date": 1638421772572,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 39711,
+            "range": "± 180",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 571607,
+            "range": "± 2849",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 26722,
+            "range": "± 71",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 40723,
+            "range": "± 54",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2194,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 84428,
             "range": "± 80",
             "unit": "ns/iter"
           }
